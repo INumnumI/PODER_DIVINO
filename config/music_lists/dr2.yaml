@@ -1,0 +1,20 @@
+- category: --Deadly Life--
+  songs: 
+    - name: "Ikoroshia.mp3"
+      length: 282
+    - name: "Ekoroshia.mp3"
+      length: 424
+- category: --Class Trial--
+  songs: 
+    - name: "Trial Underground.mp3"
+      length: 108
+    - name: "Class Trial (Odd Edition).mp3"
+      length: 501
+- category: --Discussion--
+  songs: 
+    - name: "Discussion -BREAK-.mp3"
+      length: 235
+    - name: "Discussion -HEAT UP-.mp3"
+      length: 253
+    - name: "Discussion -HOPE VS DESPAIR-.mp3"
+      length: 269

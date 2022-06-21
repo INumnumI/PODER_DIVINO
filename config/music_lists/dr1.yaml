@@ -1,0 +1,20 @@
+- category: --Deadly Life--
+  songs: 
+    - name: "BOX 15.mp3"
+      length: 244
+    - name: "BOX 16.mp3"
+      length: 331
+- category: --Class Trial--
+  songs: 
+    - name: "Trial Underground.mp3"
+      length: 108
+    - name: "Class Trial (Dawn Edition).mp3"
+      length: 373
+- category: --Discussion--
+  songs: 
+    - name: "Discussion -BREAK-.mp3"
+      length: 235
+    - name: "Discussion -HEAT UP-.mp3"
+      length: 253
+    - name: "Discussion -HOPE VS DESPAIR-.mp3"
+      length: 269

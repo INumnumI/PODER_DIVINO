@@ -1,0 +1,7 @@
+[2021-01-02 00:53:06,467 UTC]TSUSERVERDR HAS ENCOUNTERED A FATAL PYTHON ERROR.
+Traceback (most recent call last):
+  File "C:\Users\yo\Desktop\TsuserverDR-master\start_server.py", line 56, in main
+    raise RuntimeError(msg)
+RuntimeError: Unable to locate the `config` folder in C:\Users\yo\Desktop\TsuserverDR-master. However, a `config_sample` folder was found. Please rename `config_sample` to `config` as instructed in the README and try again.
+
+Server was not initialized, so client and area dumps could not be generated.

@@ -1,0 +1,16 @@
+- category: --Class Trial--
+  songs: 
+    - name: "Trial Underground.mp3"
+      length: 108
+    - name: "Class Trial (Dawn Edition).mp3"
+      length: 373
+    - name: "Class Trial (Odd Edition).mp3"
+      length: 279
+- category: --Discussion--
+  songs: 
+    - name: "Discussion -BREAK-.mp3"
+      length: 235
+    - name: "Discussion -HEAT UP-.mp3"
+      length: 253
+    - name: "Discussion -HOPE VS DESPAIR-.mp3"
+      length: 269

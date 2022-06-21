@@ -1,0 +1,13 @@
+[2021-01-01 22:38:59,722 UTC]TSUSERVERDR HAS ENCOUNTERED A FATAL PYTHON ERROR.
+Traceback (most recent call last):
+  File "C:\Users\yo\Desktop\TsuserverDR-master\start_server.py", line 68, in main
+    my_server = TsuserverDR()
+  File "C:\Users\yo\Desktop\TsuserverDR-master\server\tsuserver.py", line 87, in __init__
+    self.area_manager = AreaManager(self)
+  File "C:\Users\yo\Desktop\TsuserverDR-master\server\area_manager.py", line 875, in __init__
+    self.load_areas()
+  File "C:\Users\yo\Desktop\TsuserverDR-master\server\area_manager.py", line 985, in load_areas
+    raise AreaError(info)
+server.exceptions.AreaError: The following areas were defined as reachable areas of some areas in the area list file, but were not actually defined as areas: {'Basement'}. Please rename the affected areas and try again.
+
+Server was not initialized, so client and area dumps could not be generated.

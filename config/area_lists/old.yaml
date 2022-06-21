@@ -1,0 +1,10 @@
+- area: Lobby
+  background: gs4
+- area: Case A
+  background: gs5
+- area: Case B
+  background: gs4
+- area: Event
+  background: gs4
+- area: Random
+  background: gs4

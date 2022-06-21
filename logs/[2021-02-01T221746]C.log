@@ -1,0 +1,248 @@
+[2021-02-02 01:17:46,276 UTC]TSUSERVERDR HAS ENCOUNTERED AN ERROR HANDLING A CLIENT PACKET
+*Server time: Mon Feb  1 22:17:46 2021
+*Packet details: ID ['AO2', '2.9.0b']
+*Client status: C::9:1578393382::SERVER_SELECT::False:0
+*Area status: A::0:Lobby toriel:3
+
+Traceback (most recent call last):
+  File "F:\Users\GORDO\Desktop\numserver\server\aoprotocol.py", line 101, in data_received
+    self.net_cmd_dispatcher[cmd](self, args)
+  File "F:\Users\GORDO\Desktop\numserver\server\aoprotocol.py", line 283, in net_cmd_id
+    if not check_client_version():
+  File "F:\Users\GORDO\Desktop\numserver\server\aoprotocol.py", line 242, in check_client_version
+    minor = int(version_list[2])
+ValueError: invalid literal for int() with base 10: '0b'
+
+
+
+= Client dump. =
+*Number of clients: 10
+*Current clients
+
+== Client information of 0 ==
+*CID: 0. IPID: 8003215313. HDID: 2431859
+*Character name: Medi. Showname: . OOC username: Media
+*In area: 40-Torre SAMAME
+*Last IC message: *firma*
+*Last OOC message: 
+*Is GM? False. Is CM? False. Is mod? False.
+*Is sneaking? False. Is bleeding? False. Is handicapped? False
+*Is blinded? False. Is deafened? False. Is gagged? False
+*Is transient? False. Has autopass? False. Clients open: 1
+*Is muted? False. Is OOC Muted? False
+*Global IC range: None. Global IC prefix: None
+*Following: -
+*Followed by: -
+*Is Using: AO2 2.4.8
+*Online for: 54:24. Last active: Mon Feb  1 22:17:44 2021
+
+== Client information of 1 ==
+*CID: 1. IPID: 9063111428. HDID: 1a338931
+*Character name: Gawr Gura. Showname: . OOC username: 
+*In area: 2-Patio
+*Last IC message: No es mujer?
+*Last OOC message: 
+*Is GM? False. Is CM? False. Is mod? False.
+*Is sneaking? False. Is bleeding? False. Is handicapped? False
+*Is blinded? False. Is deafened? False. Is gagged? False
+*Is transient? False. Has autopass? False. Clients open: 3
+*Is muted? False. Is OOC Muted? False
+*Global IC range: None. Global IC prefix: None
+*Following: -
+*Followed by: -
+*Is Using: AO2 2.4.8
+*Online for: 54:35. Last active: Mon Feb  1 22:07:49 2021
+
+== Client information of 2 ==
+*CID: 2. IPID: 751520806. HDID: 68d386d7
+*Character name: Beelzebub_HTH2. Showname: . OOC username: ANUNCIO
+*In area: 40-Torre SAMAME
+*Last IC message:  
+*Last OOC message: 
+*Is GM? False. Is CM? False. Is mod? False.
+*Is sneaking? False. Is bleeding? False. Is handicapped? False
+*Is blinded? False. Is deafened? False. Is gagged? False
+*Is transient? False. Has autopass? False. Clients open: 2
+*Is muted? False. Is OOC Muted? False
+*Global IC range: None. Global IC prefix: None
+*Following: -
+*Followed by: -
+*Is Using: AO2 2.4.8
+*Online for: 54:18. Last active: Mon Feb  1 22:17:41 2021
+
+== Client information of 3 ==
+*CID: 3. IPID: 7718443685. HDID: aa193aaf
+*Character name: Riamu Yumemi. Showname: . OOC username: HolaAA
+*In area: 2-Patio
+*Last IC message: ¿Y qué tal les fue?
+*Last OOC message: a
+*Is GM? False. Is CM? False. Is mod? False.
+*Is sneaking? False. Is bleeding? False. Is handicapped? False
+*Is blinded? False. Is deafened? False. Is gagged? False
+*Is transient? False. Has autopass? False. Clients open: 2
+*Is muted? False. Is OOC Muted? False
+*Global IC range: None. Global IC prefix: None
+*Following: -
+*Followed by: -
+*Is Using: AO2 2.4.8
+*Online for: 54:14. Last active: Mon Feb  1 22:07:58 2021
+
+== Client information of 4 ==
+*CID: 4. IPID: 751520806. HDID: 68d386d7
+*Character name: Chlomaki_HD. Showname: . OOC username: 
+*In area: 0-Lobby toriel
+*Last IC message: 0
+*Last OOC message: 
+*Is GM? False. Is CM? False. Is mod? False.
+*Is sneaking? False. Is bleeding? False. Is handicapped? False
+*Is blinded? False. Is deafened? False. Is gagged? False
+*Is transient? False. Has autopass? False. Clients open: 2
+*Is muted? False. Is OOC Muted? False
+*Global IC range: None. Global IC prefix: None
+*Following: -
+*Followed by: -
+*Is Using: AO2 2.4.8
+*Online for: 53:59. Last active: Mon Feb  1 22:11:58 2021
+
+== Client information of 5 ==
+*CID: 5. IPID: 9063111428. HDID: 1a338931
+*Character name: UN CAPO EL ROCK CALLAHAN. Showname: . OOC username: 
+*In area: 5-Pasillo piso 1
+*Last IC message: SEX
+*Last OOC message: 
+*Is GM? False. Is CM? False. Is mod? False.
+*Is sneaking? False. Is bleeding? False. Is handicapped? False
+*Is blinded? False. Is deafened? False. Is gagged? False
+*Is transient? False. Has autopass? False. Clients open: 3
+*Is muted? False. Is OOC Muted? False
+*Global IC range: None. Global IC prefix: None
+*Following: -
+*Followed by: -
+*Is Using: AO2 2.4.8
+*Online for: 53:49. Last active: Mon Feb  1 22:13:25 2021
+
+== Client information of 6 ==
+*CID: 6. IPID: 9063111428. HDID: 1a338931
+*Character name: FELMAN. Showname: . OOC username: SEX
+*In area: 40-Torre SAMAME
+*Last IC message: PARA NIÑOS DE QUINTO DE PRIMARIA
+*Last OOC message: 
+*Is GM? False. Is CM? False. Is mod? False.
+*Is sneaking? False. Is bleeding? False. Is handicapped? False
+*Is blinded? False. Is deafened? False. Is gagged? False
+*Is transient? False. Has autopass? False. Clients open: 3
+*Is muted? False. Is OOC Muted? False
+*Global IC range: None. Global IC prefix: None
+*Following: -
+*Followed by: -
+*Is Using: AO2 2.4.8
+*Online for: 53:15. Last active: Mon Feb  1 22:17:15 2021
+
+== Client information of 7 ==
+*CID: 7. IPID: 6639686406. HDID: f6252020
+*Character name: Persona1. Showname: . OOC username: 
+*In area: 0-Lobby toriel
+*Last IC message: 
+*Last OOC message: 
+*Is GM? False. Is CM? False. Is mod? False.
+*Is sneaking? False. Is bleeding? False. Is handicapped? False
+*Is blinded? False. Is deafened? False. Is gagged? False
+*Is transient? False. Has autopass? False. Clients open: 1
+*Is muted? False. Is OOC Muted? False
+*Global IC range: None. Global IC prefix: None
+*Following: -
+*Followed by: -
+*Is Using: AO2 2.4.8
+*Online for: 45:37. Last active: Mon Feb  1 21:32:17 2021
+
+== Client information of 8 ==
+*CID: 8. IPID: 7718443685. HDID: aa193aaf
+*Character name: Marco. Showname: . OOC username: Sex
+*In area: 40-Torre SAMAME
+*Last IC message: cuck de mierda firma.
+*Last OOC message: 
+*Is GM? False. Is CM? False. Is mod? False.
+*Is sneaking? False. Is bleeding? False. Is handicapped? False
+*Is blinded? False. Is deafened? False. Is gagged? False
+*Is transient? False. Has autopass? False. Clients open: 2
+*Is muted? False. Is OOC Muted? False
+*Global IC range: None. Global IC prefix: None
+*Following: -
+*Followed by: -
+*Is Using: AO2 2.4.8
+*Online for: 14:43. Last active: Mon Feb  1 22:17:20 2021
+
+== Client information of 9 ==
+*CID: 9. IPID: 1578393382. HDID: 80144f3a-7450-473e-8ddb-fc2b6d09ae2c
+*Character name: SERVER_SELECT. Showname: . OOC username: 
+*In area: 0-Lobby toriel
+*Last IC message: 
+*Last OOC message: 
+*Is GM? False. Is CM? False. Is mod? False.
+*Is sneaking? False. Is bleeding? False. Is handicapped? False
+*Is blinded? False. Is deafened? False. Is gagged? False
+*Is transient? False. Has autopass? False. Clients open: 1
+*Is muted? False. Is OOC Muted? False
+*Global IC range: None. Global IC prefix: None
+*Following: -
+*Followed by: -
+*Is Using: AO2 2.9.0b
+*Online for: 0.4 seconds. Last active: Mon Feb  1 22:17:45 2021
+
+
+= Area dump =
+*Current area list: config/areas.yaml
+*Old area list: None
+*Current areas:
+**A::0:Lobby toriel:3
+***C::7:6639686406::Persona1::False:0
+***C::4:751520806::Chlomaki_HD::False:0
+***C::9:1578393382::SERVER_SELECT::False:0
+**A::1:Porton:0
+**A::2:Patio:2
+***C::1:9063111428::Gawr Gura::False:2
+***C::3:7718443685:HolaAA:Riamu Yumemi::False:2
+**A::3:Patio E.F.:0
+**A::4:Tienda P1:0
+**A::5:Pasillo piso 1:1
+***C::5:9063111428::UN CAPO EL ROCK CALLAHAN::False:5
+**A::6:Primer grado:0
+**A::7:Bano H:0
+**A::8:Bano M:0
+**A::9:Psicologo:0
+**A::10:Computo:0
+**A::11:Sala profes:0
+**A::12:Oficina profes:0
+**A::13:Bano Profes:0
+**A::14:Escaleras generales 1:0
+**A::15:Escaleras Secretaria.:0
+**A::16:Puerta Secretaria:0
+**A::17:Entrada Secretaria:0
+**A::18:Secretaria:0
+**A::19:Pasillo Piso 2:0
+**A::20:Segundo grado:0
+**A::21:Tercer grado:0
+**A::22:Cuarto grado:0
+**A::23:Quinto grado:0
+**A::24:Sexto grado:0
+**A::25:Direccion:0
+**A::26:Oficina Directores:0
+**A::27:Escaleras generales 2:0
+**A::28:Pasillo Piso 3:0
+**A::29:Primero Secu:0
+**A::30:Segundo Secu:0
+**A::31:Tercero Secu:0
+**A::32:Cuarto Papyrus:0
+**A::33:Quinto Sans:0
+**A::34:Escaleras Tejado:0
+**A::35:Tejado:0
+**A::36:Tienda LIDIA:0
+**A::37:Torre LIDIA:0
+**A::38:LIDIA FINAL BATTLE:0
+**A::39:Tienda SAMAME:0
+**A::40:Torre SAMAME:4
+***C::8:7718443685:Sex:Marco::False:40
+***C::6:9063111428:SEX:FELMAN::False:40
+***C::0:8003215313:Media:Medi::False:40
+***C::2:751520806:ANUNCIO:Beelzebub_HTH2::False:40
+**A::41:SAMAME FINAL BATTLE:0
