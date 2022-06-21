@@ -1,0 +1,12 @@
+/config/*
+/storage/*.json
+/logs/*.log
+/server/__pycache__/*.pyc
+/.spyproject/
+/__pycache__/
+/tests/__pycache__/
+/server/ideas.py
+/server/ideas.MD
+/.coverage
+/.pylint.d/
+/server/.pylint.d/

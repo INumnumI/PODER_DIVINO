@@ -1,0 +1,15 @@
+language: python
+python:
+    - "3.6"
+    - "3.7"
+    - "3.8"
+cache: pip
+before_install:
+    - mv config_sample config
+install: 
+    - pip install -r requirements.txt
+    - pip install codecov
+script: 
+    - coverage run test.py
+after_success:
+    - codecov
