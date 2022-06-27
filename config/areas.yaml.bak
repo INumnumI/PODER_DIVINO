@@ -1,0 +1,304 @@
+# A sample area list document
+# Each item in an area list is an area. Areas have parameters you may tweak, and will be used when loading the area list.
+# Start each area item with a - (and only the area item, for every other parameter use spaces)
+# Yes, this has a lot of introductory text. This is because areas have lots of parameters that can be tweaked.
+# If you want to go to the actual areas part, scroll beyond all the text that starts with #.
+
+# ----------
+# Parameters
+# ----------
+# *area: Name of the area.
+# *background: Default background of the area.
+# *afk_delay: If a positive number, the number of seconds that must pass to mark an inactive player as AFK and kick them to `afk_sendto`. If 0, no such AFK kicks take place.
+# *afk_sendto: The ID of the area to kick an AFK player to.
+# *bglock: If false, only moderators can lock the area background; if true, no one can lock it.
+# *bullet: If false, only GM+ can send IC messages with bullets/shouts. If true, no such restriction is imposed.
+# *cbg_allowed: If false, only GM+ can set the area's background to one not in the server's list. If true, no such restriction is imposed.
+# *change_reachability_allowed: If false, only GM+ may /unilock or /bilock passages affecting this area. If true, no such restriction is imposed.
+# *default_description: Output of /look in the area if no custom description is in place via /look_set
+# *evidence_mod: Unused (do not include)
+# *gm_iclock_allowed: If false, only CM+ may /iclock the area. If true, GMs may also /iclock.
+# *iniswap_allowed: If false, everyone can send IC messages while iniswapped/iniedited; if true, no one can send IC messages while iniswapped/iniedited.
+# *has_lights: If false, the area cannot have its lights turned off via /light or similar. If true, no such restriction is imposed.
+# *lobby_area: If true, the area is marked as lobby (which disallows non-GMs+ from sneaking or /knock'ing from or to the area). If false, no such restriction is placed.
+# *locking_allowed: If false, everyone can lock the area; if true, no one can lock it.
+# *private_area: If true, the area is marked as private (which disallows everyone from sneaking and GMs+ reading /whisper messages).
+# *reachable_areas: If <ALL>, a passage will be created from this area to every other area. If it is a comma-separated list of areas (by name), a passage will be created from this area only to the listed areas.
+# *restricted_chars: If a list of folder names, it prevents non-GMs using said characters from joining the area, and prompts them to choose another one if they are kicked to the area, they attempt to switch to that character while in the area, or their character is marked as restricted while they are in the area.
+# *rollp_allowed: If false, only GM+ may /rollp. If true, everyone can /rollp.
+# *rp_getarea_allowed: If false, if the server is in RP mode, only GM+ can /getarea and similar. If true, no such restriction is imposed.
+# *rp_getareas_allowed: If false, if the server is in RP mode, only GM+ can /getareas and similar. If true, no such restriction is imposed.
+# *scream_range: If <ALL>, all areas can receive a /scream message sent from this area. If it is a comma-separated list of areas (by name), only said areas can receive /scream messages.
+# *song_switch_allowed: If false, only GM+ can do /play. If true, no such restriction is imposed.
+
+# --------
+# Mandatory parameters (the area list will not load if a section does not contain the following)
+# --------
+# area
+# background
+
+# --------
+# Optional parameters and their default values (will be assumed if not present)
+# --------
+#
+# afk_delay: 0
+# afk_sendto: 0
+# bglock: false
+# bullet: true
+# cbg_allowed: false
+# change_reachability_allowed: true
+# default_description: `default_area_description` in config.yaml
+# evidence_mod: FFA
+# gm_iclock_allowed: true
+# has_lights: true
+# iniswap_allowed: false
+# lobby_area: false
+# locking_allowed: false
+# private_area: false
+# reachable_areas: <ALL>
+# restricted_chars: NO RESTRICTED CHARACTERS
+# rollp_allowed: true
+# rp_getarea_allowed: true
+# rp_getareas_allowed: true
+# scream_range: NO AREAS OTHER THAN THIS ONE
+# song_switch_allowed: false
+            
+
+- area: Lobby
+  background: Lobby
+  bglock: false
+  evidence_mod: FFA
+  iniswap_allowed: true
+  reachable_areas: <ALL>
+  lobby_area: true
+- area: Templo de Kamisama
+  background: TemploDeKamisama
+  bglock: false
+  evidence_mod: FFA
+  iniswap_allowed: true
+  reachable_areas: Arbol de la vida, Habitacion Del Tiempo, Lobby, Templo de Kamisama, Torre de Karin, Inicio de la torre, Casa de Goku, Paprika Wasteland, Break Wasteland, Grassy Plains, Diablo Desert, Gizard Wasteland, Oceano, Kame House, East City, West City, Capsule Corp, Meseta de Yunzabit, Ciudad del Norte, Limbo
+  lobby_area: false
+- area: Habitacion Del Tiempo
+  background: Habitacion Del Tiempo
+  bglock: false
+  evidence_mod: FFA
+  iniswap_allowed: true
+  reachable_areas: Lobby, Templo de Kamisama
+  lobby_area: false
+- area: Torre de Karin
+  background: TorreDeKarin
+  bglock: false
+  evidence_mod: FFA
+  iniswap_allowed: true
+  reachable_areas: Arbol de la vida, Lobby, Templo de Kamisama, Torre de Karin, Inicio de la torre, Casa de Goku, Paprika Wasteland, Break Wasteland, Grassy Plains, Diablo Desert, Gizard Wasteland, Oceano, Kame House, East City, West City, Capsule Corp, Meseta de Yunzabit, Ciudad del Norte, Limbo
+  lobby_area: false
+- area: Inicio de la torre
+  background: InicioDeLaTorre
+  bglock: false
+  evidence_mod: FFA
+  iniswap_allowed: true
+  reachable_areas: Arbol de la vida, Lobby, Templo de Kamisama, Torre de Karin, Inicio de la torre, Casa de Goku, Paprika Wasteland, Break Wasteland, Grassy Plains, Diablo Desert, Gizard Wasteland, Oceano, Kame House, East City, West City, Capsule Corp, Meseta de Yunzabit, Ciudad del Norte, Limbo
+  lobby_area: false
+- area: Casa de Goku
+  background: CasaDeGonzalo
+  bglock: false
+  evidence_mod: FFA
+  iniswap_allowed: true
+  reachable_areas: Arbol de la vida, Interior Casa de Goku, Lobby, Templo de Kamisama, Torre de Karin, Inicio de la torre, Casa de Goku, Paprika Wasteland, Break Wasteland, Grassy Plains, Diablo Desert, Gizard Wasteland, Oceano, Kame House, East City, West City, Capsule Corp, Meseta de Yunzabit, Ciudad del Norte, Limbo
+  lobby_area: false
+- area: Interior Casa de Goku
+  background: Interior Casa de Gonzalo
+  bglock: false
+  evidence_mod: FFA
+  iniswap_allowed: true
+  reachable_areas: Casa de Goku, Lobby
+  lobby_area: false
+- area: Paprika Wasteland
+  background: PaprikaWasteland
+  bglock: false
+  evidence_mod: FFA
+  iniswap_allowed: true
+  reachable_areas: Arbol de la vida, Lobby, Templo de Kamisama, Torre de Karin, Inicio de la torre, Casa de Goku, Paprika Wasteland, Break Wasteland, Grassy Plains, Diablo Desert, Gizard Wasteland, Oceano, Kame House, East City, West City, Capsule Corp, Meseta de Yunzabit, Ciudad del Norte, Limbo
+  lobby_area: false
+- area: Break Wasteland
+  background: BreakWasteland
+  bglock: false
+  evidence_mod: FFA
+  iniswap_allowed: true
+  reachable_areas: Arbol de la vida, Lobby, Templo de Kamisama, Torre de Karin, Inicio de la torre, Casa de Goku, Paprika Wasteland, Break Wasteland, Grassy Plains, Diablo Desert, Gizard Wasteland, Oceano, Kame House, East City, West City, Capsule Corp, Meseta de Yunzabit, Ciudad del Norte, Limbo
+  lobby_area: false
+- area: Grassy Plains
+  background: GrassyPlains
+  bglock: false
+  evidence_mod: FFA
+  iniswap_allowed: true
+  reachable_areas: Arbol de la vida, Lobby, Templo de Kamisama, Torre de Karin, Inicio de la torre, Casa de Goku, Paprika Wasteland, Break Wasteland, Grassy Plains, Diablo Desert, Gizard Wasteland, Oceano, Kame House, East City, West City, Capsule Corp, Meseta de Yunzabit, Ciudad del Norte, Limbo
+  lobby_area: false
+- area: Diablo Desert
+  background: DiabloDesert
+  bglock: false
+  evidence_mod: FFA
+  iniswap_allowed: true
+  reachable_areas: Arbol de la vida, Lobby, Templo de Kamisama, Torre de Karin, Inicio de la torre, Casa de Goku, Paprika Wasteland, Break Wasteland, Grassy Plains, Diablo Desert, Gizard Wasteland, Oceano, Kame House, East City, West City, Capsule Corp, Meseta de Yunzabit, Ciudad del Norte, Limbo
+  lobby_area: false
+- area: Gizard Wasteland
+  background: GizardWasteland
+  bglock: false
+  evidence_mod: FFA
+  iniswap_allowed: true
+  reachable_areas: Arbol de la vida, Lobby, Templo de Kamisama, Torre de Karin, Inicio de la torre, Casa de Goku, Paprika Wasteland, Break Wasteland, Grassy Plains, Diablo Desert, Gizard Wasteland, Oceano, Kame House, East City, West City, Capsule Corp, Meseta de Yunzabit, Ciudad del Norte, Limbo
+  lobby_area: false
+- area: Oceano
+  background: Oceano
+  bglock: false
+  evidence_mod: FFA
+  iniswap_allowed: true
+  reachable_areas: Arbol de la vida, Lobby, Templo de Kamisama, Torre de Karin, Inicio de la torre, Casa de Goku, Paprika Wasteland, Break Wasteland, Grassy Plains, Diablo Desert, Gizard Wasteland, Oceano, Kame House, East City, West City, Capsule Corp, Meseta de Yunzabit, Ciudad del Norte, Limbo
+  lobby_area: false
+- area: Kame House
+  background: KameHouse
+  bglock: false
+  evidence_mod: FFA
+  iniswap_allowed: true
+  reachable_areas: Arbol de la vida, Lobby, Templo de Kamisama, Torre de Karin, Inicio de la torre, Casa de Goku, Paprika Wasteland, Break Wasteland, Grassy Plains, Diablo Desert, Gizard Wasteland, Oceano, Kame House, East City, West City, Capsule Corp, Meseta de Yunzabit, Ciudad del Norte, Limbo
+  lobby_area: false
+- area: East City
+  background: EastCity
+  bglock: false
+  evidence_mod: FFA
+  iniswap_allowed: true
+  reachable_areas: Arbol de la vida, Lobby, Templo de Kamisama, Torre de Karin, Inicio de la torre, Casa de Goku, Paprika Wasteland, Break Wasteland, Grassy Plains, Diablo Desert, Gizard Wasteland, Oceano, Kame House, East City, West City, Capsule Corp, Meseta de Yunzabit, Ciudad del Norte, Limbo
+  lobby_area: false
+- area: West City
+  background: WestCity
+  bglock: false
+  evidence_mod: FFA
+  iniswap_allowed: true
+  reachable_areas: Arbol de la vida, Lobby, Templo de Kamisama, Torre de Karin, Inicio de la torre, Casa de Goku, Paprika Wasteland, Break Wasteland, Grassy Plains, Diablo Desert, Gizard Wasteland, Oceano, Kame House, East City, West City, Capsule Corp, Meseta de Yunzabit, Ciudad del Norte, Limbo
+  lobby_area: false
+- area: Capsule Corp
+  background: CapsuleCorp
+  bglock: false
+  evidence_mod: FFA
+  iniswap_allowed: true
+  reachable_areas: Arbol de la vida, Lobby, Templo de Kamisama, Torre de Karin, Inicio de la torre, Casa de Goku, Paprika Wasteland, Break Wasteland, Grassy Plains, Diablo Desert, Gizard Wasteland, Oceano, Kame House, East City, West City, Capsule Corp, Meseta de Yunzabit, Ciudad del Norte, Limbo
+  lobby_area: false
+- area: Meseta de Yunzabit
+  background: Meseta de Yunzabit
+  bglock: false
+  evidence_mod: FFA
+  iniswap_allowed: true
+  reachable_areas: Arbol de la vida, Nave de KamiSama, Lobby, Templo de Kamisama, Torre de Karin, Inicio de la torre, Casa de Goku, Paprika Wasteland, Break Wasteland, Grassy Plains, Diablo Desert, Gizard Wasteland, Oceano, Kame House, East City, West City, Capsule Corp, Meseta de Yunzabit, Ciudad del Norte, Limbo
+  lobby_area: false
+- area: Nave de KamiSama
+  background: Nave de KamiSama
+  bglock: false
+  evidence_mod: FFA
+  iniswap_allowed: true
+  reachable_areas: Meseta de Yunzabit, Lobby, Namek
+  lobby_area: false
+- area: Ciudad del Norte
+  background: Ciudad del Norte
+  bglock: false
+  evidence_mod: FFA
+  iniswap_allowed: true
+  reachable_areas: Arbol de la vida, Zona Rocosa, Lobby, Templo de Kamisama, Torre de Karin, Inicio de la torre, Casa de Goku, Paprika Wasteland, Break Wasteland, Grassy Plains, Diablo Desert, Gizard Wasteland, Oceano, Kame House, East City, West City, Capsule Corp, Meseta de Yunzabit, Ciudad del Norte, Limbo
+  lobby_area: false
+- area: Zona Rocosa
+  background: Zona Rocosa
+  bglock: false
+  evidence_mod: FFA
+  iniswap_allowed: true
+  reachable_areas: Ciudad del Norte, Lobby
+  lobby_area: false
+- area: Arbol de la vida
+  background: Arbol de la vida
+  bglock: false
+  evidence_mod: FFA
+  iniswap_allowed: true
+  reachable_areas: Arbol de la vida, Lobby, Templo de Kamisama, Torre de Karin, Inicio de la torre, Casa de Goku, Paprika Wasteland, Break Wasteland, Grassy Plains, Diablo Desert, Gizard Wasteland, Oceano, Kame House, East City, West City, Capsule Corp, Meseta de Yunzabit, Ciudad del Norte, Limbo
+  lobby_area: false
+- area: Namek
+  background: Namek 
+  bglock: false
+  evidence_mod: FFA
+  iniswap_allowed: true
+  reachable_areas: Distrito de Maima, Aldea de Norte de Namek, Casa del Patriarca, Nave de Freezer, Arbol de la vida, Lobby, Namek, Templo de Kamisama, Torre de Karin, Inicio de la torre, Casa de Goku, Paprika Wasteland, Break Wasteland, Grassy Plains, Diablo Desert, Gizard Wasteland, Oceano, Kame House, East City, West City, Capsule Corp, Meseta de Yunzabit, Ciudad del Norte, Limbo
+  lobby_area: false
+- area: Distrito de Maima
+  background: Distrito de Maima
+  bglock: false
+  evidence_mod: FFA
+  iniswap_allowed: true
+  reachable_areas: Lobby, Namek, Limbo, Aldea de Norte de Namek, Casa del Patriarca, Nave de Freezer
+  lobby_area: false
+- area: Aldea de Norte de Namek
+  background: Aldea de Norte de Namek
+  bglock: false
+  evidence_mod: FFA
+  iniswap_allowed: true
+  reachable_areas: Lobby, Namek, Limbo, Distrito de Maima, Casa del Patriarca, Nave de Freezer
+  lobby_area: false
+- area: Casa del Patriarca
+  background: Casa del Patriarca
+  bglock: false
+  evidence_mod: FFA
+  iniswap_allowed: true
+  reachable_areas: Lobby, Namek, Limbo, Distrito de Maima, Aldea de Norte de Namek, Nave de Freezer, El Gran Patriarca
+  lobby_area: false
+- area: El Gran Patriarca
+  background: EL GRAN PATRIARCA 
+  bglock: false
+  evidence_mod: FFA
+  iniswap_allowed: true
+  reachable_areas: Lobby, Limbo, Casa del Patriarca
+  lobby_area: false
+- area: Nave de Freezer
+  background: Nave de Freezer
+  bglock: false
+  evidence_mod: FFA
+  iniswap_allowed: true
+  reachable_areas: Lobby, Namek, Limbo, Distrito de Maima, Aldea de Norte de Namek, Casa del Patriarca, Interior de la nave de Freezer, Zona de Recuperacion
+  lobby_area: false
+- area: Interior de la nave de Freezer
+  background: Interior de la nave de Freezer
+  bglock: false
+  evidence_mod: FFA
+  iniswap_allowed: true
+  reachable_areas: Lobby, Limbo, Nave de Freezer, Zona de Recuperacion
+  lobby_area: false
+- area: Zona de Recuperacion
+  background: Zona de Recuperacion
+  bglock: false
+  evidence_mod: FFA
+  iniswap_allowed: true
+  reachable_areas:  Lobby, Limbo, Nave de Freezer, Interior de la nave de Freezer
+  lobby_area: false
+- area: Limbo
+  background: EnmaDaio-Sama 
+  bglock: false
+  evidence_mod: FFA
+  iniswap_allowed: true
+  reachable_areas: Arbol de la vida, Lobby, Namek, Templo de Kamisama, Torre de Karin, Inicio de la torre, Casa de Goku, Paprika Wasteland, Break Wasteland, Grassy Plains, Diablo Desert, Gizard Wasteland, Oceano, Kame House, East City, West City, Capsule Corp, Meseta de Yunzabit, Ciudad del Norte, Limbo, Camino de la Serpiente
+  lobby_area: false
+- area: Camino de la Serpiente
+  background: CaminoDeLaSerpiente
+  bglock: false
+  evidence_mod: FFA
+  iniswap_allowed: true
+  reachable_areas: Limbo, Planeta de Kaiosama, Infierno, Lobby
+  lobby_area: false
+- area: Planeta de Kaiosama
+  background: PlanetaDeKaiosama
+  bglock: false
+  evidence_mod: FFA
+  iniswap_allowed: true
+  reachable_areas: Camino de la Serpiente, Limbo, Lobby
+  lobby_area: false
+- area: Infierno
+  background: Infierno
+  bglock: false
+  evidence_mod: FFA
+  iniswap_allowed: true
+  reachable_areas: Limbo, Lobby
+  lobby_area: false

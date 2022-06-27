@@ -1,0 +1,13 @@
+[2022-06-05 21:26:26,993 UTC]TSUSERVERDR HAS ENCOUNTERED A FATAL PYTHON ERROR.
+Traceback (most recent call last):
+  File "D:\Cosas\DRO\Servidores\numserver\start_server.py", line 68, in main
+    my_server = TsuserverDR()
+  File "D:\Cosas\DRO\Servidores\numserver\server\tsuserver.py", line 87, in __init__
+    self.area_manager = AreaManager(self)
+  File "D:\Cosas\DRO\Servidores\numserver\server\area_manager.py", line 875, in __init__
+    self.load_areas()
+  File "D:\Cosas\DRO\Servidores\numserver\server\area_manager.py", line 985, in load_areas
+    raise AreaError(info)
+server.exceptions.AreaError: The following areas were defined as reachable areas of some areas in the area list file, but were not actually defined as areas: {'Planetade Kaiosama'}. Please rename the affected areas and try again.
+
+Server was not initialized, so client and area dumps could not be generated.

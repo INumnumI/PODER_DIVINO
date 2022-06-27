@@ -1,0 +1,13 @@
+[2021-10-31 23:31:45,952 UTC]TSUSERVERDR HAS ENCOUNTERED A FATAL PYTHON ERROR.
+Traceback (most recent call last):
+  File "C:\Users\IAN\Desktop\numserver\start_server.py", line 68, in main
+    my_server = TsuserverDR()
+  File "C:\Users\IAN\Desktop\numserver\server\tsuserver.py", line 87, in __init__
+    self.area_manager = AreaManager(self)
+  File "C:\Users\IAN\Desktop\numserver\server\area_manager.py", line 875, in __init__
+    self.load_areas()
+  File "C:\Users\IAN\Desktop\numserver\server\area_manager.py", line 961, in load_areas
+    raise AreaError(info)
+server.exceptions.AreaError: Two areas have the same name in area list: Puente. Please rename the duplicated areas and try again.
+
+Server was not initialized, so client and area dumps could not be generated.

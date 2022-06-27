@@ -1,0 +1,56 @@
+[2022-05-29 17:21:10,828 UTC]TSUSERVERDR HAS ENCOUNTERED A FATAL PYTHON ERROR.
+Traceback (most recent call last):
+  File "D:\Cosas\DRO\Servidores\numserver\server\constants.py", line 415, in yaml_load
+    return yaml.safe_load(file)
+  File "C:\Users\Asoplata\AppData\Roaming\Python\Python310\site-packages\yaml\__init__.py", line 125, in safe_load
+    return load(stream, SafeLoader)
+  File "C:\Users\Asoplata\AppData\Roaming\Python\Python310\site-packages\yaml\__init__.py", line 81, in load
+    return loader.get_single_data()
+  File "C:\Users\Asoplata\AppData\Roaming\Python\Python310\site-packages\yaml\constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+  File "C:\Users\Asoplata\AppData\Roaming\Python\Python310\site-packages\yaml\composer.py", line 36, in get_single_node
+    document = self.compose_document()
+  File "C:\Users\Asoplata\AppData\Roaming\Python\Python310\site-packages\yaml\composer.py", line 55, in compose_document
+    node = self.compose_node(None, None)
+  File "C:\Users\Asoplata\AppData\Roaming\Python\Python310\site-packages\yaml\composer.py", line 82, in compose_node
+    node = self.compose_sequence_node(anchor)
+  File "C:\Users\Asoplata\AppData\Roaming\Python\Python310\site-packages\yaml\composer.py", line 111, in compose_sequence_node
+    node.value.append(self.compose_node(node, index))
+  File "C:\Users\Asoplata\AppData\Roaming\Python\Python310\site-packages\yaml\composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "C:\Users\Asoplata\AppData\Roaming\Python\Python310\site-packages\yaml\composer.py", line 127, in compose_mapping_node
+    while not self.check_event(MappingEndEvent):
+  File "C:\Users\Asoplata\AppData\Roaming\Python\Python310\site-packages\yaml\parser.py", line 98, in check_event
+    self.current_event = self.state()
+  File "C:\Users\Asoplata\AppData\Roaming\Python\Python310\site-packages\yaml\parser.py", line 428, in parse_block_mapping_key
+    if self.check_token(KeyToken):
+  File "C:\Users\Asoplata\AppData\Roaming\Python\Python310\site-packages\yaml\scanner.py", line 115, in check_token
+    while self.need_more_tokens():
+  File "C:\Users\Asoplata\AppData\Roaming\Python\Python310\site-packages\yaml\scanner.py", line 152, in need_more_tokens
+    self.stale_possible_simple_keys()
+  File "C:\Users\Asoplata\AppData\Roaming\Python\Python310\site-packages\yaml\scanner.py", line 291, in stale_possible_simple_keys
+    raise ScannerError("while scanning a simple key", key.mark,
+yaml.scanner.ScannerError: while scanning a simple key
+  in "config/areas.yaml", line 173, column 3
+could not find expected ':'
+  in "config/areas.yaml", line 174, column 3
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Cosas\DRO\Servidores\numserver\start_server.py", line 68, in main
+    my_server = TsuserverDR()
+  File "D:\Cosas\DRO\Servidores\numserver\server\tsuserver.py", line 87, in __init__
+    self.area_manager = AreaManager(self)
+  File "D:\Cosas\DRO\Servidores\numserver\server\area_manager.py", line 875, in __init__
+    self.load_areas()
+  File "D:\Cosas\DRO\Servidores\numserver\server\area_manager.py", line 908, in load_areas
+    areas = Constants.yaml_load(chars)
+  File "D:\Cosas\DRO\Servidores\numserver\server\constants.py", line 423, in yaml_load
+    raise ServerError.YAMLInvalidError(msg)
+server.exceptions.ServerError.YAMLInvalidError: File areas.yaml returned the following YAML error when loading: `while scanning a simple key
+  in "config/areas.yaml", line 173, column 3
+could not find expected ':'
+  in "config/areas.yaml", line 174, column 3`.
+
+Server was not initialized, so client and area dumps could not be generated.
