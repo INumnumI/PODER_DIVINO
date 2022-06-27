@@ -10,7 +10,7 @@
 # show_ms2-prober: log ms2-prober connections in the server log, which will happen regularly if your server is public
 
 playerlimit: 100
-port: 27016
+port: 27017
 timeout: 250
 local: false
 show_ms2-prober: true
@@ -23,8 +23,8 @@ show_ms2-prober: true
 # masterserver_port: the AO master server port (do not modify)
 
 use_masterserver: true
-masterserver_name: CDCM
-masterserver_description: 442 12 10 es la modpass
+masterserver_name: forro del orto
+masterserver_description: este es pedofilo
 masterserver_ip: master.aceattorneyonline.com # Keep
 masterserver_port: 27016 # Keep
 
@@ -56,7 +56,7 @@ gmpass7: Sunday
 # discord_link: Discord invite link for the server, accessible through /discord
 # utc_offset: To print /time or /time12, use either local time (put local) or UTC offset to use (put +0, +2.5, -3, etc.) 
 
-motd: 442 12 10
+motd: Welcome to my server!
 hostname: Le troll
 discord_link: None
 utc_offset: local

@@ -1,3 +1,163 @@
+# A sample music list document
+# Each item in a music list is a music category, under which you may list songs.
+# Each song has (and requires) a name field, and an optional length in seconds field. If given length, the track will automatically loop after length seconds.
+# To make a track not loop, do not include the length field.
+# Start each music category with a -
+
+- category: --No es Dragon Ball AF--
+  songs: 
+    - name: "After Dark.mp3"
+      length: -1
+    - name: "Ambassador of the Sea of Death - hyper blue syakesan theme.mp3"
+      length: -1
+    - name: "America, Fuck Yeah!.mp3"
+      length: -1
+    - name: "Anonymous - Illuminati.mp3"
+      length: -1
+    - name: "Basket Case.mp3"
+      length: -1
+    - name: "BEETHOVEN VIRUS.mp3"
+      length: -1
+    - name: "BEFORE I FORGET.mp3"
+      length: -1
+    - name: "Better Call Saul Theme.mp3"
+      length: -1
+    - name: "Bodies.mp3"
+      length: -1
+    - name: "Boulevard of Broken Dreams.mp3"
+      length: -1
+    - name: "Californication.mp3"
+      length: -1
+    - name: "Canon Rock (JerryC).mp3"
+      length: -1
+    - name: "Dragonborn.mp3"
+      length: -1
+    - name: "el bananero HARRY EL SUCIO POTTER.mp3"
+      length: -1
+    - name: "Enter Sandman.mp3"
+      length: -1
+    - name: "Eye of the Tiger.mp3"
+      length: -1
+    - name: "First Of The Year.mp3"
+      length: -1
+    - name: "GANGSTA PARADISE.mp3"
+      length: -1
+    - name: "Gangsta's Paradise Cover [EPIC ORCHESTRA].mp3"
+      length: -1
+    - name: "Giygas Theme.mp3"
+      length: -1
+    - name: "IN THE END.mp3"
+      length: -1
+    - name: "INKAGAMES.mp3"
+      length: -1
+    - name: "It's my life.mp3"
+      length: -1
+    - name: "Kanjite Knight.mp3"
+      length: -1
+    - name: "KANYE WEST POWER.mp3"
+      length: -1
+    - name: "Karma Palace.mp3"
+      length: -1
+    - name: "Killing in the name.mp3"
+      length: -1
+    - name: "Kyrie for orchestra.mp3"
+      length: -1
+    - name: "LAC THEME 1.mp3"
+      length: -1
+    - name: "LITTLE DARK AGE.mp3"
+      length: -1
+    - name: "Lucifer Main Theme.mp3"
+      length: -1
+    - name: "Ludwig, The Accursed & Holy Blade (The Old Hunters).mp3"
+      length: -1
+    - name: "Magician Intro.mp3"
+      length: -1
+    - name: "Mais de 8000! - Sparta Extended Remix.mp3"
+      length: -1
+    - name: "Mississippi Queen.mp3"
+      length: -1
+    - name: "Nightcore - Everytime We Touch.mp3"
+      length: -1
+    - name: "Numb.mp3"
+      length: -1
+    - name: "One More Time.mp3"
+      length: -1
+    - name: "Otherside.mp3"
+      length: -1
+    - name: "Paint it Black.mp3"
+      length: -1
+    - name: "Paralyzer.mp3"
+      length: -1
+    - name: "Paranoid.mp3"
+      length: -1
+    - name: "Promise (Reprise).mp3"
+      length: -1
+    - name: "Rules of Nature.mp3"
+      length: -1
+    - name: "SAW THEME.mp3"
+      length: -1
+    - name: "Scary Monsters And Nice Sprites.mp3"
+      length: -1
+    - name: "Seven Nation Army.mp3"
+      length: -1
+    - name: "Seven Rings In Hand.mp3"
+      length: -1
+    - name: "Smells Like Teen Spirit.mp3"
+      length: -1
+    - name: "SONO CHI NO KIOKU END OF THE WORLD.mp3"
+      length: -1
+    - name: "Stoning.mp3"
+      length: -1
+    - name: "Stronger.mp3"
+      length: -1
+    - name: "Sweet Dreams (MARILYIN MANSON).mp3"
+      length: -1
+    - name: "Symphony No. 9, Op. 125. Molto vivace.mp3"
+      length: -1
+    - name: "Tell me why.mp3"
+      length: -1
+    - name: "The Big Bang Theory Intro Season 1 HD.mp3"
+      length: -1
+    - name: "The Hot Wind Is Blowing Extended.mp3"
+      length: -1
+    - name: "The Kids Arent Alright.mp3"
+      length: -1
+    - name: "The Only Thing I Know For Real.mp3"
+      length: -1
+    - name: "The Roar of the Spark.mp3"
+      length: -1
+    - name: "The Stains of Time.mp3"
+      length: -1
+    - name: "The X-Files Theme.mp3"
+      length: -1
+    - name: "Theme of the Magician.mp3"
+      length: -1
+    - name: "Trance - 009 Sound System Dreamscape.mp3"
+      length: -1
+    - name: "WASTED NIGHTCORE.mp3"
+      length: -1
+    - name: "Watamote! - Opening.mp3"
+      length: -1
+    - name: "WHAT IVE DONE.mp3"
+      length: -1
+    - name: "X GON GIVE IT TO YA.mp3"
+      length: -1
+    - name: "You're gonna go far, kid.mp3"
+      length: -1
+    - name: "yt5s.com - Angry Birds Theme (128 kbps).mp3"
+      length: -1
+    - name: "CLINT EASTWOOD.mp3"
+      length: -1
+    - name: "clubbed to death.mp3"
+      length: -1
+    - name: "10th_Man_Down.mp3"
+      length: 312
+    - name: "Deixa_Acontecer.mp3"
+      lenght: 246
+    - name: "dragon_ball_AF_destiny.mp3"
+      lenght: 606
+    - name: "Sin.mp3"
+      length: 121
 - category: ==DRAGON BALL CDCM==
   songs:
     - name: "[FREE] Breaking Bad Type Beat X Meme rap X Ski Mask The Slump God X Joey Trap Type Beat.mp3"
@@ -8,6 +168,112 @@
       length: 204
     - name: "Argentum Online Soundtrack - Arghal.mp3"
       length: 58
+    - name: "Dragon Ball AF - 115.mp3"
+      length: -1
+    - name: "Dragon Ball AF - AF Medley I V2.mp3"
+      length: -1
+    - name: "Dragon Ball AF - AF Medley I.mp3"
+      length: -1
+    - name: "Dragon Ball AF - AF Medley II.mp3"
+      length: -1
+    - name: "Dragon Ball AF - Ala kerro meille.mp3"
+      length: -1
+    - name: "Dragon Ball AF - Attack.mp3"
+      length: -1
+    - name: "Dragon Ball AF - Away.mp3"
+      length: -1
+    - name: "Dragon Ball AF - BEAST IN BLACK.mp3"
+      length: -1
+    - name: "Dragon Ball AF - Blow me Away.mp3"
+      length: -1
+    - name: "Dragon Ball AF - Boss Appearance.mp3"
+      length: -1
+    - name: "Dragon Ball AF - BROTHER.ogg"
+      length: -1
+    - name: "Dragon Ball AF - Cha-La Head-Cha-La lml.mp3"
+      length: -1
+    - name: "Dragon Ball AF - Dan Dan Kokoro Hikareteku.mp3"
+      length: -1
+    - name: "Dragon Ball AF - Dawn of Victory.mp3"
+      length: -1
+    - name: "Dragon Ball AF - Dracula.mp3"
+      length: -1
+    - name: "Dragon Ball AF - Dragon Ball Saga Remix.mp3"
+      length: -1
+    - name: "Dragon Ball AF - End Of All Hope.mp3"
+      length: -1
+    - name: "Dragon Ball AF - Escape.mp3"
+      length: -1
+    - name: "Dragon Ball AF - Fiesta Pagana.mp3"
+      length: -1
+    - name: "Dragon Ball AF - Giorgio Vanni.mp3"
+      length: -1
+    - name: "Dragon Ball AF - Golden slaughterer.mp3"
+      length: -1
+    - name: "Dragon Ball AF - Gothic Vocalise.mp3"
+      length: -1
+    - name: "Dragon Ball AF - Hasta que arda - Jordi Wild.mp3"
+      length: -1
+    - name: "Dragon Ball AF - Heavy Violence.mp3"
+      length: -1
+    - name: "Dragon Ball AF - Holy Orders (Be Just or Be Dead).mp3"
+      length: -1
+    - name: "Dragon Ball AF - ira tenax.mp3"
+      length: -1
+    - name: "Dragon Ball AF - Kurenai.mp3"
+      length: -1
+    - name: "Dragon Ball AF - La cabalgata de las Valkirias.mp3"
+      length: -1
+    - name: "Dragon Ball AF - Last Resort.mp3"
+      length: -1
+    - name: "Dragon Ball AF - Lively Motion.mp3"
+      length: -1
+    - name: "Dragon Ball AF - Lux Triumphans.mp3"
+      length: -1
+    - name: "Dragon Ball AF - Master Of Puppets.mp3"
+      length: -1
+    - name: "Dragon Ball AF - Megalith.mp3"
+      length: -1
+    - name: "Dragon Ball AF - Mejor Morir En Pie.mp3"
+      length: -1
+    - name: "Dragon Ball AF - Monster.mp3"
+      length: -1
+    - name: "Dragon Ball AF - O Fortuna (Metal Ver.).mp3"
+      length: -1
+    - name: "Dragon Ball AF - Paradise.mp3"
+      length: -1
+    - name: "Dragon Ball AF - Planet Hell.mp3"
+      length: -1
+    - name: "Dragon Ball AF - Pledge of Demon.mp3"
+      length: -1
+    - name: "Dragon Ball AF - Requiem for a Dream Remix.mp3"
+      length: -1
+    - name: "Dragon Ball AF - REQUIEM FOR A DREAM.mp3"
+      length: -1
+    - name: "Dragon Ball AF - Sad Statue.mp3"
+      length: -1
+    - name: "Dragon Ball AF - Shepherd Of Fire.mp3"
+      length: -1
+    - name: "Dragon Ball AF - The end begins.mp3"
+      length: -1
+    - name: "Dragon Ball AF - THE GATE OF HELL.mp3"
+      length: -1
+    - name: "Dragon Ball AF - THE WORLD.mp3"
+      length: -1
+    - name: "Dragon Ball AF - Through The Fire And Flames.mp3"
+      length: -1
+    - name: "Dragon Ball AF - War.mp3"
+      length: -1
+    - name: "Dragon Ball AF - WHATS UP PEOPLE.mp3"
+      length: -1
+    - name: "Dragon Ball AF - Winter.mp3"
+      length: -1
+    - name: "Dragon Ball AF - Wishmaster.mp3"
+      length: -1
+    - name: "Dragon Ball AF - Xicors Theme.mp3"
+      length: -1
+    - name: "Dragon Ball AF - You give love a bad name.mp3"
+      length: -1
     - name: "BELIEVE YOURSELF.mp3"
       length: 191
     - name: "Chou Super Dragon Soul.mp3"
@@ -156,3 +422,29 @@
       length: 224
     - name: "Yeah! Break! Care! Break!.mp3"
       length: 213
+    - name: "Dragon Ball AF One-Winged Angel.mp3"
+      length: 0
+    - name: "kino.ogg"
+      length: 72
+    - name: "Canon Rock (JerryC) - The Original.mp3"
+      length: 314.4
+    - name: "FLOW - HERO -Kibou no uta.mp3"
+      length: 201.6
+    - name: "DragonBall_ Raging Blast 2 - Opening.mp3"
+      length: 80.4
+    - name: "Basshunter - DotA (HQ).mp3"
+      length: 192
+    - name: "Devil May Cry 3 - Devils Never Cry.mp3"
+      length: 312.6
+    - name: "Dragon Ball Super OST   Beerus' Madness.mp3"
+      length: 78.6
+    - name: "The Guess Who - Laughing.mp3"
+      length: 184.8
+    - name: "GTA San Andreas Opening Intro.mp3"
+      length: 1.44
+    - name: "Feeling Every Sunset - Heartless.mp3"
+      length: 142.8
+    - name: "Tokyo Conception - SMT III_ Nocturne.mp3"
+      length: 127.8
+    - name: "CS_GO_-_M4A1-S_Sound_-_High_Quality.mp3"
+      lenght: 61.2
