@@ -10,7 +10,7 @@
 # show_ms2-prober: log ms2-prober connections in the server log, which will happen regularly if your server is public
 
 playerlimit: 100
-port: 27017
+port: 27016
 timeout: 250
 local: false
 show_ms2-prober: true
