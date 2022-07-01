@@ -1,0 +1,78 @@
+[2022-07-01 06:27:29,343 UTC]TSUSERVERDR HAS ENCOUNTERED AN ERROR HANDLING A CLIENT PACKET
+*Server time: Fri Jul  1 03:27:29 2022
+*Packet details: CT ['W', '/roll 20']
+*Client status: C::0:9703229676:W:Amber::False:0
+*Area status: A::0:Lobby:1
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\cosas\DRO y AO2\servers\PODER_DIVINO\server\aoprotocol.py", line 101, in data_received
+    self.net_cmd_dispatcher[cmd](self, args)
+  File "C:\Users\USER\Desktop\cosas\DRO y AO2\servers\PODER_DIVINO\server\aoprotocol.py", line 707, in net_cmd_ct
+    function(self.client, arg)
+  File "C:\Users\USER\Desktop\cosas\DRO y AO2\servers\PODER_DIVINO\server\commands.py", line 4129, in ooc_cmd_roll
+    client.send_ic(msg=roll_mesage, pos=client.pos, cid=client.char_id, showname=client.showname,
+NameError: name 'roll_mesage' is not defined
+
+
+
+= Client dump. =
+*Number of clients: 1
+*Current clients
+
+== Client information of 0 ==
+*CID: 0. IPID: 9703229676. HDID: 36d324c9-1e68-4e12-9110-1537132b7cde
+*Character name: Amber. Showname: . OOC username: W
+*In area: 0-Lobby
+*Last IC message: 
+*Last OOC message: 
+*Is GM? False. Is CM? False. Is mod? False.
+*Is sneaking? False. Is bleeding? False. Is handicapped? False
+*Is blinded? False. Is deafened? False. Is gagged? False
+*Is transient? False. Has autopass? False. Clients open: 1
+*Is muted? False. Is OOC Muted? False
+*Global IC range: None. Global IC prefix: None
+*Following: -
+*Followed by: -
+*Is Using: AO2 2.8.5
+*Online for: 7.4 seconds. Last active: Fri Jul  1 03:27:25 2022
+
+
+= Area dump =
+*Current area list: config/areas.yaml
+*Old area list: None
+*Current areas:
+**A::0:Lobby:1
+***C::0:9703229676:W:Amber::False:0
+**A::1:Templo de Kamisama:0
+**A::2:Habitacion Del Tiempo:0
+**A::3:Torre de Karin:0
+**A::4:Inicio de la torre:0
+**A::5:Casa de Goku:0
+**A::6:Interior Casa de Goku:0
+**A::7:Paprika Wasteland:0
+**A::8:Break Wasteland:0
+**A::9:Grassy Plains:0
+**A::10:Diablo Desert:0
+**A::11:Gizard Wasteland:0
+**A::12:Oceano:0
+**A::13:Kame House:0
+**A::14:East City:0
+**A::15:West City:0
+**A::16:Capsule Corp:0
+**A::17:Meseta de Yunzabit:0
+**A::18:Nave de KamiSama:0
+**A::19:Ciudad del Norte:0
+**A::20:Zona Rocosa:0
+**A::21:Arbol de la vida:0
+**A::22:Namek:0
+**A::23:Distrito de Maima:0
+**A::24:Aldea de Norte de Namek:0
+**A::25:Casa del Patriarca:0
+**A::26:El Gran Patriarca:0
+**A::27:Nave de Freezer:0
+**A::28:Interior de la nave de Freezer:0
+**A::29:Zona de Recuperacion:0
+**A::30:Limbo:0
+**A::31:Camino de la Serpiente:0
+**A::32:Planeta de Kaiosama:0
+**A::33:Infierno:0

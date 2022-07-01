@@ -1,0 +1,22 @@
+[2022-07-01 04:13:47,390 UTC]TSUSERVERDR HAS ENCOUNTERED A FATAL PYTHON ERROR.
+Traceback (most recent call last):
+  File ".\start_server.py", line 68, in main
+    my_server = TsuserverDR()
+  File "C:\Users\USER\Desktop\cosas\DRO y AO2\servers\PODER_DIVINO\server\tsuserver.py", line 107, in __init__
+    self.commands = importlib.import_module('server.commands')
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python37\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\USER\Desktop\cosas\DRO y AO2\servers\PODER_DIVINO\server\commands.py", line 4130
+    client.send_ic(msg=roll_message_ic, params='1' pos=client.pos, cid=client.char_id, showname=client.showname,
+                                                     ^
+SyntaxError: invalid syntax
+
+Server was not initialized, so client and area dumps could not be generated.
