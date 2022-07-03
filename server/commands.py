@@ -4127,8 +4127,6 @@ def ooc_cmd_roll(client: ClientManager.Client, arg: str):
     roll_message_ic = 'SAQUÉ UN {} DE {}'.format(roll_result, num_faces)
     client.send_ooc('You {}.'.format(roll_message))
     client.send_ooc_others('{} {}.'.format(client.displayname, roll_message), in_area=True)
-    client.send_ic(msg=roll_message_ic, pos=client.pos, cid=client.char_id, showname=client.showname,
-                   bypass_deafened_starters=True, color=1)
     client.send_ooc_others('(X) {} [{}] {} in {} ({}).'
                            .format(client.displayname, client.id, roll_message,
                                    client.area.name, client.area.id),
