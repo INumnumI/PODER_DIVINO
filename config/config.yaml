@@ -24,7 +24,7 @@ show_ms2-prober: true
 
 use_masterserver: true
 masterserver_name: Loquendo City
-masterserver_description: ESTP 5w9 394
+masterserver_description: ESTP 5w9 394 https://discord.gg/SqFEUfHFDz
 masterserver_ip: master.aceattorneyonline.com # Keep
 masterserver_port: 27016 # Keep
 
@@ -58,7 +58,7 @@ gmpass7: Sunday
 
 motd: Welcome to my server!
 hostname: ASOPLATA
-discord_link: https://discord.gg/r8Y4NnhQ
+discord_link: https://discord.gg/SqFEUfHFDz
 utc_offset: local
 
 # Roll configurations
