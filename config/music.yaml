@@ -447,4 +447,298 @@
     - name: "Tokyo Conception - SMT III_ Nocturne.mp3"
       length: 127.8
     - name: "CS_GO_-_M4A1-S_Sound_-_High_Quality.mp3"
+<<<<<<< HEAD
       lenght: 61.2
+- category: --Super Dragon Ball AF X--
+  songs: 
+    - name: "Boss Nigger Theme Song (HD).ogg"
+      length: 100
+    - name: "Dragon Ball AF - 1000 anos despues.ogg"
+      length: 119
+    - name: "Dragon Ball AF - Abayo Fly Bye.ogg"
+      length: 170
+    - name: "Dragon Ball AF - Alex.ogg"
+      length: 285
+    - name: "Dragon Ball AF - Apocalypse 1992.ogg"
+      length: 584
+    - name: "Dragon Ball AF - Arch Linux.ogg"
+      length: 184
+    - name: "Dragon Ball AF - Assign Monk.ogg"
+      length: 161
+    - name: "Dragon Ball AF - Asu e no houkou.ogg"
+      length: 284
+    - name: "Dragon Ball AF - Audi famam ilius.ogg"
+      length: 119
+    - name: "Dragon Ball AF - Back On The Rocks.ogg"
+      length: 289
+    - name: "Dragon Ball AF - BAD BUNNY - TÚ NO METES CABRA (Video Oficial).ogg"
+      length: 173
+    - name: "Dragon Ball AF - Bang.ogg"
+      length: 147
+    - name: "Dragon Ball AF - Batalla final contra Cellbumeiggszer.ogg"
+      length: 316
+    - name: "Dragon Ball AF - Battle 2.ogg"
+      length: 155
+    - name: "Dragon Ball AF - BFG Division.ogg"
+      length: 507
+    - name: "Dragon Ball AF - Black Alice's Theme.ogg"
+      length: 114
+    - name: "Dragon Ball AF - Bloodlines.ogg"
+      length: 238
+    - name: "Dragon Ball AF - Bobidi's theme.ogg"
+      length: 233
+    - name: "Dragon Ball AF - Buleria.ogg"
+      length: 254
+    - name: "Dragon Ball AF - Cigaro.ogg"
+      length: 134
+    - name: "Dragon Ball AF - Collective Consciousness.ogg"
+      length: 159
+    - name: "Dragon Ball AF - Corte comercial.ogg"
+      length: 11
+    - name: "Dragon Ball AF - Dead or Alive.ogg"
+      length: 247
+    - name: "Dragon Ball AF - DEEP RED.ogg"
+      length: 265
+    - name: "Dragon Ball AF - Devil May Cry(anime) OST - Track 01.ogg"
+      length: 100
+    - name: "Dragon Ball AF - Devil May Cry(anime) OST - Track 23.ogg"
+      length: 104
+    - name: "Dragon Ball AF - Devil Trigger.ogg"
+      length: 405
+    - name: "Dragon Ball AF - Dies Irae (Amadeus).ogg"
+      length: 678
+    - name: "Dragon Ball AF - Do Ya Wanna Taste It.ogg"
+      length: 176
+    - name: "Dragon Ball AF - DRAGON.ogg"
+      length: 255
+    - name: "Dragon Ball AF - El Condor Pasa (TEMA DE ASAKUSA).mp3"
+      length: 180
+    - name: "Dragon Ball AF - El Poder Prohibido.ogg"
+      length: 237
+    - name: "Dragon Ball AF - Eminem - Morbius.ogg"
+      length: 125
+    - name: "Dragon Ball AF - Ending.ogg"
+      length: 300
+    - name: "Mississippi Queen.ogg"
+      length: 151
+    - name: "Dragon Ball AF - FIRE WARS.ogg"
+      length: 234
+    - name: "Dragon Ball AF - Four Heavenly Knights Battle.ogg"
+      length: 220
+    - name: "Dragon Ball AF - GEPPY-X 99.ogg"
+      length: 224
+    - name: "Dragon Ball AF - Gods.ogg"
+      length: 283
+    - name: "Dragon Ball AF - GOLDENVENGEANCE.ogg"
+      length: 149
+    - name: "Dragon Ball AF - He's a Pirate.ogg"
+      length: 263
+    - name: "Dragon Ball AF - HEYYEYAAEYAAAEYAEYAA.ogg"
+      length: 126
+    - name: "Dragon Ball AF - I Will Give You My All 2017 (Assault).ogg"
+      length: 296
+    - name: "Dragon Ball AF - Infierno (AF).ogg"
+      length: 65
+    - name: "Dragon Ball AF - Infinite.ogg"
+      length: 275
+    - name: "Dragon Ball AF - It Has To Be This Way.ogg"
+      length: 176
+    - name: "Dragon Ball AF - Kamehameha Universal.ogg"
+      length: 214
+    - name: "Dragon Ball AF - Kessen the Final Round.ogg"
+      length: 384
+    - name: "Dragon Ball AF - KNIGHT OF THE WIND.ogg"
+      length: 272
+    - name: "Dragon Ball AF - Knightrider Of Doom.ogg"
+      length: 325
+    - name: "Dragon Ball AF - La espada Z.ogg"
+      length: 261
+    - name: "Dragon Ball AF - Let's Party!!.ogg"
+      length: 188
+    - name: "Dragon Ball AF - Look Pimpin!.ogg"
+      length: 158
+    - name: "Dragon Ball AF - Loquendo Rap.ogg"
+      length: 72
+    - name: "Dragon Ball AF - Lose Yourself.ogg"
+      length: 320
+    - name: "Dragon Ball AF - Low of Solipsism.ogg"
+      length: 144
+    - name: "Dragon Ball AF - M.I.B. Main Theme.ogg"
+      length: 178
+    - name: "Dragon Ball AF - Machine.ogg"
+      length: 155
+    - name: "Dragon Ball AF - Majin Gohan.ogg"
+      length: 193
+    - name: "Dragon Ball AF - MAXON.ogg"
+      length: 250
+    - name: "Dragon Ball AF - Metal Fighter.ogg"
+      length: 188
+    - name: "Dragon Ball AF - Micronauti - Daitan III (Official Audio) - Sigla TV.ogg"
+      length: 201
+    - name: "Dragon Ball AF - Mundo Amazonico.ogg"
+      length: 221
+    - name: "Dragon Ball AF - Mundo de los angeles (AF).ogg"
+      length: 231
+    - name: "Dragon Ball AF - Mundo del Vacio.ogg"
+      length: 254
+    - name: "Dragon Ball AF - Mundo Kaioshin.ogg"
+      length: 175
+    - name: "Dragon Ball AF - My Name Is Skrillex (AF Remix).ogg"
+      length: 287
+    - name: "Dragon Ball AF - My Name Is Skrillex (HQ).ogg"
+      length: 271
+    - name: "Dragon Ball AF - Nikopol.ogg"
+      length: 211
+    - name: "Dragon Ball AF - ONE PUNCH MAN FOREVER.ogg"
+      length: 272
+    - name: "Dragon Ball AF - Phoenix.ogg"
+      length: 373
+    - name: "Dragon Ball AF - PLATINUMVENGEANCE.ogg"
+      length: 208
+    - name: "Dragon Ball AF - Police Story.ogg"
+      length: 177
+    - name: "Dragon Ball AF - Power of Desire.ogg"
+      lenght: 236
+    - name: "Dragon Ball AF - Rage of Dust.ogg"
+      lenght: 205
+    - name: "Dragon Ball AF - Ready To Die.ogg"
+      length: 175
+    - name: "Dragon Ball AF - Red Sun.ogg"
+      length: 134
+    - name: "Dragon Ball AF - Riddle of Steel - Riders of Doom.ogg"
+      length: 340
+    - name: "Dragon Ball AF - Rip and Tear.ogg"
+      length: 258
+    - name: "Dragon Ball AF - Rocks.ogg"
+      length: 299
+    - name: "Dragon Ball AF - Rungran - D.M.C. (Band Version).ogg"
+      length: 97
+    - name: "Dragon Ball AF - SAGA.ogg"
+      length: 235
+    - name: "Dragon Ball AF - Sans SSJ10 Poder Prohibido.ogg"
+      length: 145
+    - name: "Dragon Ball AF - Siegentle Man.ogg"
+      length: 354
+    - name: "Dragon Ball AF - SKILL.ogg"
+      length: 352
+    - name: "Dragon Ball AF - Speed of Light.ogg"
+      length: 185
+    - name: "Dragon Ball AF - Spirit killer.ogg"
+      length: 205
+    - name: "Dragon Ball AF - SSJ4 Mystic.ogg"
+      length: 235
+    - name: "Dragon Ball AF - SSJ5.ogg"
+      length: 120
+    - name: "Dragon Ball AF - STORMBRINGER.ogg"
+      length: 240
+    - name: "Dragon Ball AF - Subhuman.ogg"
+      length: 311
+    - name: "Dragon Ball AF - Swan Lake.ogg"
+      length: 481
+    - name: "Dragon Ball AF - Tema de Aladjinn.ogg"
+      length: 128
+    - name: "Dragon Ball AF - Tema de Angel Z.ogg"
+      length: 134
+    - name: "Dragon Ball AF - Tema de Bain.ogg"
+      length: 223
+    - name: "Dragon Ball AF - Tema de Cabba.ogg"
+      length: 204
+    - name: "Dragon Ball AF - Tema de CDCM.ogg"
+      length: 140
+    - name: "Dragon Ball AF - Tema de Cellbuzer.ogg"
+      length: 362
+    - name: "Dragon Ball AF - Tema de Demijari.ogg"
+      length: 152
+    - name: "Dragon Ball AF - Tema de El Hermano.ogg"
+      length: 373
+    - name: "Dragon Ball AF - Tema de Evil Gohan.ogg"
+      length: 168
+    - name: "Dragon Ball AF - Tema de Evil Goku.ogg"
+      length: 177
+    - name: "Dragon Ball AF - Tema de Evil Vegeta.ogg"
+      length: 178
+    - name: "Dragon Ball AF - Tema de Ize.ogg"
+      length: 138
+    - name: "Dragon Ball AF - Tema de Kaarat.ogg"
+      length: 188
+    - name: "Dragon Ball AF - Tema de KaittyXZ.ogg"
+      length: 128
+    - name: "Dragon Ball AF - Tema de Kidnapped.ogg"
+      length: 151
+    - name: "Dragon Ball AF - Tema de Kutiengo.ogg"
+      length: 311
+    - name: "Dragon Ball AF - Tema de los angeles oscuros (AF).mp3"
+      length: 92
+    - name: "Dragon Ball AF - Tema de los guerreros CDCM.ogg"
+      length: 259
+    - name: "Dragon Ball AF - Tema de Matt.ogg"
+      length: 176
+    - name: "Dragon Ball AF - Tema de Perfect Cell SSJ Dios.ogg"
+      length: 561
+    - name: "Dragon Ball AF - Tema de Ryuk.ogg"
+      length: 184
+    - name: "Dragon Ball AF - Tema de Ser Supremo Cellbumeiggszer.ogg"
+      length: 153
+    - name: "Dragon Ball AF - Tema de Tablos.ogg"
+      length: 272
+    - name: "Dragon Ball AF - Tema de Trollface.ogg"
+      length: 223
+    - name: "Dragon Ball AF - Tema de Vegeta (AF).ogg"
+      length: 87
+    - name: "Dragon Ball AF - Tema de Venom (AF).ogg"
+      length: 187
+    - name: "Dragon Ball AF - Tema de Waardelonse.ogg"
+      length: 289
+    - name: "Dragon Ball AF - Tema de Wobbu.ogg"
+      length: 145
+    - name: "Dragon Ball AF - Tema de Zaiko.ogg"
+      length: 215
+    - name: "Dragon Ball AF - Tema de Zazenllamer ladron de cuerpos.ogg"
+      length: 176
+    - name: "Dragon Ball AF - Tema de Zeel.ogg"
+      length: 176
+    - name: "Dragon Ball AF - The guardian.ogg"
+      length: 252
+    - name: "Dragon Ball AF - THE HERO!.ogg"
+      length: 227
+    - name: "Dragon Ball AF - The time has come.ogg"
+      length: 232
+    - name: "Dragon Ball AF - THE VENGEANCE OF THOSE FORGOTTEN IN DARKNESS.ogg"
+      length: 73
+    - name: "Dragon Ball AF - The Wizard's Last Rhymes.ogg"
+      length: 638
+    - name: "Dragon Ball AF - Torero.ogg"
+      length: 215
+    - name: "Dragon Ball AF - Tread on the Tiger's Tail.ogg"
+      length: 304
+    - name: "Dragon Ball AF - Ultimate Weapon.ogg"
+      length: 124
+    - name: "Dragon Ball AF - UN Owen Was Her - Nico Nico Douga Ronald McDonald.ogg"
+      length: 318
+    - name: "Dragon Ball AF - Victory! Absolute Finish!!.ogg"
+      length: 190
+    - name: "Dragon Ball AF - VICTORY.ogg"
+      length: 338
+    - name: "Dragon Ball AF - vs Cellbumeiggszer.ogg"
+      length: 244
+    - name: "Dragon Ball AF - Warriors.ogg"
+      length: 278
+    - name: "Dragon Ball AF - Wings of the legend.ogg"
+      length: 394
+    - name: "Dragon Ball AF - you are a pirate.ogg"
+      length: 94
+    - name: "Dragon Ball AF - Yukiaru Tatakai.ogg"
+      length: 136
+    - name: "Dragon Ball Super OST - The Birth of a God.ogg"
+      length: 192
+    - name: "GOKU VS JIREN RAP PORTA.ogg"
+      length: 261
+    - name: "Kino.ogg AF.ogg"
+      length: 160
+    - name: "ORIGINAL WTF BOOM.ogg"
+      length: 8
+    - name: "videos chistosos - loquendo.ogg"
+      length: 399
+=======
+      lenght: 61.2
+>>>>>>> fee9c048fc56db321497c5f4f65d8ccad71c692f
