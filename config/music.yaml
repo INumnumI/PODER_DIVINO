@@ -4,441 +4,737 @@
 # To make a track not loop, do not include the length field.
 # Start each music category with a -
 
-- category: -----FDSKJGRHEHKESGHLYP4ERDHLN-----
+- category: --No es Dragon Ball AF--
   songs: 
-    - name: "Demonbane - Those Who Will Challenge The Divine Will.mp3"
-      length: 234
-    - name: "10th_Man_Down.mp3"
-      length: 321
-    - name: "[FREE] Breaking Bad Type Beat X Meme rap X Ski Mask The Slump God X Joey Trap Type Beat.ogg"
-      length: 155
-    - name: "All Hail Shadow - Shadow the Hedgehog.mp3"
-      length: 205
-    - name: "America, Fuck Yeah!.mp3"
-      length: 13
-    - name: "Akira Kushida - Ultimate Battle.mp3"
-      length: 246
-    - name: "Deus Machina Demonbane Original Soundtrack - Arkham City.mp3"
-      length: 207
-    - name: "Deus Machina Demonbane Original Soundtrack - Dance of the Superhero.mp3"
-      length: 225
-    - name: "Deus Machina Demonbane Original Soundtrack - Holy Ground of the Corrupter.mp3"
-      length: 168
-    - name: "Deus Machina Demonbane Original Soundtrack - Killing Fang Hateful Claw I'm the Dark Storm of Confusion.mp3"
-      length: 202
-    - name: "Deus Machina Demonbane Original Soundtrack - Somehow a Prodigy on Paper.mp3"
-      length: 156
-    - name: "BELIEVE YOURSELF.mp3"
-      length: 192
-    - name: "Devil May Cry 3 - Devils Never Cry.mp3"
-      length: 322
-    - name: "Devil May Cry 3 OST - Track 03.mp3"
-      length: 132
-    - name: "Dragon Ball AF - 115.mp3"
-      length: 229
-    - name: "Canon Rock (JerryC).mp3"
-      length: 326
-    - name: "Californication.mp3"
-      length: 322
-    - name: "Dragon Ball AF - AF Medley I V2.mp3"
-      length: 86
-    - name: "Bodies.mp3"
-      length: 220
-    - name: "Dragon Ball AF - AF Medley I.mp3"
-      length: 86
-    - name: "Dragon Ball AF - Ala kerro meille.mp3"
-      length: 211
-    - name: "Dragon Ball AF - AF Medley II.mp3"
-      length: 26
-    - name: "Chouzetsu Dynamic.mp3"
-      length: 230
-    - name: "Dragon Ball AF - Attack.mp3"
-      length: 195
-    - name: "Dragon Ball AF - Away.mp3"
-      length: 274
-    - name: "Chou Super Dragon Soul.mp3"
-      length: 252
-    - name: "Dragon Ball AF - Boss Appearance.mp3"
-      length: 68
-    - name: "CLINT EASTWOOD.mp3"
-      length: 275
-    - name: "Dan Dan Kokoro Hikareteku.mp3"
-      length: 208
-    - name: "Demonbane - Man God Machine.mp3"
-      length: 226
-    - name: "Dragon Ball AF - BEAST IN BLACK.mp3"
-      length: 270
     - name: "After Dark.mp3"
-      length: 65
-    - name: "Dragon Ball AF - BROTHER.ogg"
-      length: 396
-    - name: "DBZ Saga de Freezer Soundtrack 14.mp3"
-      length: 90
-    - name: "Demonbane - HOLY WORLD.mp3"
-      length: 243
-    - name: "Argentum Online Soundtrack - Arghal.mp3"
-      length: 59
-    - name: "Dragon Ball AF - Escape.mp3"
-      length: 344
-    - name: "Anonymous - Illuminati.mp3"
-      length: 212
-    - name: "Dragon Ball AF - Dracula.mp3"
-      length: 354
-    - name: "Dragon Ball AF - Cha-La Head-Cha-La lml.mp3"
-      length: 189
-    - name: "Dragon Ball AF - Dan Dan Kokoro Hikareteku.mp3"
-      length: 212
-    - name: "Dragon Ball AF - Blow me Away.mp3"
-      length: 208
-    - name: "Dragon Ball AF - End Of All Hope.mp3"
-      length: 236
-    - name: "Basket Case.mp3"
-      length: 184
-    - name: "Dragon Ball AF - Dawn of Victory.mp3"
-      length: 285
+      length: 64
     - name: "Ambassador of the Sea of Death - hyper blue syakesan theme.mp3"
-      length: 137
-    - name: "clubbed to death.mp3"
-      length: 456
-    - name: "BEFORE I FORGET.mp3"
-      length: 279
-    - name: "Boulevard of Broken Dreams.mp3"
-      length: 263
-    - name: "Dragon Ball AF - Hasta que arda - Jordi Wild.mp3"
-      length: 246
-    - name: "Dragon Ball AF - Dragon Ball Saga Remix.mp3"
-      length: 139
-    - name: "Canon Rock (JerryC) - The Original.mp3"
-      length: 22
-    - name: "BEETHOVEN VIRUS.mp3"
-      length: 221
-    - name: "Dragon Ball AF - Gothic Vocalise.mp3"
-      length: 60
-    - name: "Deixa_Acontecer.mp3"
-      length: 252
-    - name: "Dragon Ball AF - Holy Orders (Be Just or Be Dead).mp3"
-      length: 181
-    - name: "CS GO - M4A1-S Sound - [High Quality].mp3"
-      length: 63
-    - name: "Demonbane - Evil Shine.mp3"
-      length: 267
-    - name: "Dragon Ball AF - Kurenai.mp3"
-      length: 416
-    - name: "Dragon Ball AF - Fiesta Pagana.mp3"
-      length: 292
-    - name: "Dragon Ball AF - Golden slaughterer.mp3"
-      length: 423
-    - name: "Dragon Ball AF - ira tenax.mp3"
-      length: 74
-    - name: "DBZ - Perfect Cell Theme.mp3"
-      length: 222
-    - name: "Dragon Ball AF - La cabalgata de las Valkirias.mp3"
-      length: 283
-    - name: "Better Call Saul Theme.mp3"
-      length: 199
-    - name: "CS_GO_-_M4A1-S_Sound_-_High_Quality.mp3"
-      length: 63
-    - name: "Dragon Ball AF - Lively Motion.mp3"
-      length: 278
-    - name: "Dragon Ball AF - Planet Hell.mp3"
-      length: 277
-    - name: "Dragon Ball AF - Last Resort.mp3"
-      length: 214
-    - name: "Dragon Ball AF - Paradise.mp3"
-      length: 268
-    - name: "Dragon Ball AF - The end begins.mp3"
-      length: 116
-    - name: "Dragon Ball AF - Giorgio Vanni.mp3"
-      length: 174
-    - name: "Dragon Ball AF - Heavy Violence.mp3"
-      length: 197
-    - name: "Dragon Ball AF - Through The Fire And Flames.mp3"
-      length: 440
-    - name: "Dragon Ball AF - Pledge of Demon.mp3"
-      length: 481
-    - name: "Dragon Ball AF - Mejor Morir En Pie.mp3"
-      length: 230
-    - name: "Dragon Ball AF - Monster.mp3"
-      length: 179
-    - name: "Dragon Ball AF - Lux Triumphans.mp3"
-      length: 121
-    - name: "Dragon Ball AF - THE GATE OF HELL.mp3"
-      length: 357
-    - name: "Dragon Ball AF - WHATS UP PEOPLE.mp3"
-      length: 82
-    - name: "Dragon Ball AF - Requiem for a Dream Remix.mp3"
-      length: 247
-    - name: "Dragon Ball AF - THE WORLD.mp3"
-      length: 82
-    - name: "Deus Machina Demonbane Original Soundtrack - A Constant Renewal.mp3"
-      length: 154
-    - name: "Dragon Ball AF - Megalith.mp3"
-      length: 456
-    - name: "Dragon Ball AF - Sad Statue.mp3"
-      length: 208
-    - name: "Demonbane -In Cry of Vengeance-.mp3"
-      length: 274
-    - name: "Dragon Ball AF - REQUIEM FOR A DREAM.mp3"
-      length: 252
-    - name: "Dragon Ball AF - O Fortuna (Metal Ver.).mp3"
-      length: 203
-    - name: "Dragon Ball AF - Master Of Puppets.mp3"
-      length: 516
-    - name: "Dragon Ball AF - Wishmaster.mp3"
-      length: 265
-    - name: "Dragon Ball AF Bring Me to Life.mp3"
-      length: 238
-    - name: "Dragon Ball AF - Xicors Theme.mp3"
-      length: 327
-    - name: "Dragon Ball AF Dies Irae.mp3"
-      length: 110
-    - name: "Dragon Ball AF Eternity.mp3"
-      length: 236
-    - name: "Dragon Ball AF Libera Me From Hell.mp3"
-      length: 290
-    - name: "Dragon Ball AF - Shepherd Of Fire.mp3"
-      length: 325
-    - name: "Dragon Ball AF Bury the Light.mp3"
-      length: 583
-    - name: "Dragon Ball AF - Winter.mp3"
-      length: 494
-    - name: "Dragon Ball AF HEATS.mp3"
-      length: 244
-    - name: "Dragon Ball AF Duel Of The Fates.mp3"
-      length: 255
-    - name: "Dragon Ball AF Millennium.mp3"
-      length: 250
-    - name: "Dragon Ball AF O Fortuna.mp3"
-      length: 322
-    - name: "Dragon Ball AF - War.mp3"
-      length: 161
-    - name: "Dragon Ball AF MAD QUALIA.mp3"
+      length: 136
+    - name: "America, Fuck Yeah!.mp3"
+      length: 12
+    - name: "Anonymous - Illuminati.mp3"
       length: 211
-    - name: "Dragon Ball AF One-Winged Angel.mp3"
-      length: 363
-    - name: "Dragon Ball AF - You give love a bad name.mp3"
-      length: 220
-    - name: "Dragon Ball AF symphony no. 9 from the new world 4th movement.mp3"
-      length: 235
-    - name: "Dragon Ball AF Otherworld.mp3"
-      length: 196
-    - name: "Dragon Ball AF The meaning of truth.mp3"
-      length: 240
-    - name: "Dragon Ball AF World Is Yours.mp3"
-      length: 243
-    - name: "Dragon Ball AF Shadows Rising.mp3"
-      length: 170
-    - name: "Dragon Ball AF Wild Challenger.mp3"
-      length: 229
-    - name: "Dragon Ball GT - Soundtrack Usado por Dross - completo.mp3"
-      length: 67
-    - name: "Dragon Ball Super OST   Beerus' Madness.mp3"
-      length: 91
-    - name: "Dragon ball Z soundtrack Battle theme (Fight music).mp3"
-      length: 93
-    - name: "Dragon Soul.mp3"
-      length: 267
-    - name: "Dragon Ball Super OST Limit-Break x Survivor (Instrumental Type B).mp3"
-      length: 97
-    - name: "Kyodaika-suru Yabo.mp3"
-      length: 170
-    - name: "dragon_ball_AF_destiny.mp3"
-      length: 611
-    - name: "Dragon Ball Z - Cha La Head Cha La.mp3"
-      length: 201
-    - name: "LITTLE DARK AGE.mp3"
-      length: 301
-    - name: "Dragonborn.mp3"
-      length: 236
-    - name: "Hironobu Kageyama - Boku-Tachi wa Tenshi Datta.mp3"
-      length: 231
-    - name: "Enter Sandman.mp3"
-      length: 332
-    - name: "DragonBall_ Raging Blast 2 - Opening.mp3"
-      length: 94
-    - name: "Hironobu Kageyama - Super Survivor.mp3"
-      length: 256
-    - name: "M-1405.mp3"
-      length: 86
-    - name: "Eye of the Tiger.mp3"
-      length: 245
-    - name: "Magician Intro.mp3"
-      length: 172
-    - name: "Feeling Every Sunset - Heartless.mp3"
-      length: 158
-    - name: "Mais de 8000! - Sparta Extended Remix.mp3"
-      length: 134
-    - name: "Moeagare Toshi Imawashiki Syukumei wo koete.mp3"
-      length: 107
-    - name: "HIS WORLD.mp3"
-      length: 280
-    - name: "IN THE END.mp3"
+    - name: "Basket Case.mp3"
+      length: 183
+    - name: "BEETHOVEN VIRUS.mp3"
+      length: 213
+    - name: "BEFORE I FORGET.mp3"
+      length: 278
+    - name: "Better Call Saul Theme.mp3"
+      length: 198
+    - name: "Bodies.mp3"
       length: 219
-    - name: "Mississippi Queen.mp3"
-      length: 152
-    - name: "Flying in the Sky.mp3"
-      length: 224
-    - name: "FLOW - HERO -Kibou no uta.mp3"
-      length: 217
-    - name: "Nightcore - Everytime We Touch.mp3"
-      length: 162
-    - name: "Gangsta's Paradise Cover [EPIC ORCHESTRA].mp3"
-      length: 265
-    - name: "KANYE WEST POWER.mp3"
-      length: 103
-    - name: "First Of The Year.mp3"
+    - name: "Boulevard of Broken Dreams.mp3"
       length: 262
-    - name: "Norihito Sumitomo - The Final Death-Match.mp3"
-      length: 168
-    - name: "kino.ogg"
-      length: 81
-    - name: "Numb.mp3"
-      length: 187
-    - name: "It's my life.mp3"
-      length: 242
-    - name: "Kessen no toki Kitari.mp3"
-      length: 104
-    - name: "Kuu-Zen-Zetsu-Go.mp3"
-      length: 230
-    - name: "INKAGAMES.mp3"
-      length: 1801
-    - name: "Killing in the name.mp3"
-      length: 314
-    - name: "Karma Palace.mp3"
-      length: 190
-    - name: "Kanjite Knight.mp3"
+    - name: "Californication.mp3"
+      length: 321
+    - name: "Canon Rock (JerryC).mp3"
+      length: 325
+    - name: "Dragonborn.mp3"
+      length: 235
+    - name: "el bananero HARRY EL SUCIO POTTER.mp3"
+      length: -1
+    - name: "Enter Sandman.mp3"
+      length: 331
+    - name: "Eye of the Tiger.mp3"
       length: 244
-    - name: "Only A Chilling Elegy - Freezer theme.mp3"
-      length: 346
+    - name: "First Of The Year.mp3"
+      length: 261
     - name: "GANGSTA PARADISE.mp3"
-      length: 257
-    - name: "Giygas Theme.mp3"
-      length: 202
-    - name: "Kiyoshi Hikawa - Genkai Toppa x Survivor.mp3"
-      length: 231
-    - name: "Ginyu Tokusentai.mp3"
-      length: 277
-    - name: "fukkatsu no f - theme of freezer.mp3"
-      length: 253
-    - name: "Paint it Black.mp3"
-      length: 227
-    - name: "One More Time.mp3"
-      length: 322
-    - name: "Paranoid.mp3"
-      length: 176
-    - name: "PICCOLO TRAP REMIX.mp3"
-      length: 96
-    - name: "Rules of Nature.mp3"
-      length: 152
-    - name: "I Am (Final Doom Version) - Shadow the Hedgehog [OST].mp3"
-      length: 218
-    - name: "Porta - Dragon Ball Rap (con Letra).mp3"
-      length: 121
-    - name: "Otherside.mp3"
       length: 256
-    - name: "GTA San Andreas Opening Intro.mp3"
-      length: 105
-    - name: "Open Your Heart.mp3"
-      length: 316
-    - name: "Paralyzer.mp3"
-      length: 217
-    - name: "SAW THEME.mp3"
-      length: 182
-    - name: "LAC THEME 1.mp3"
-      length: 248
-    - name: "Sentou Danji.mp3"
-      length: 215
-    - name: "Kyrie for orchestra.mp3"
-      length: 80
-    - name: "Shawn Mcpherson - Cerberus Battle.mp3"
+    - name: "Gangsta's Paradise Cover [EPIC ORCHESTRA].mp3"
+      length: 264
+    - name: "Giygas Theme.mp3"
+      length: 201
+    - name: "IN THE END.mp3"
+      length: 218
+    - name: "INKAGAMES.mp3"
+      length: 1800
+    - name: "It's my life.mp3"
+      length: 241
+    - name: "Kanjite Knight.mp3"
       length: 243
-    - name: "Live & Learn.mp3"
-      length: 274
+    - name: "KANYE WEST POWER.mp3"
+      length: 102
+    - name: "Karma Palace.mp3"
+      length: 189
+    - name: "Killing in the name.mp3"
+      length: 313
+    - name: "Kyrie for orchestra.mp3"
+      length: 79
+    - name: "LAC THEME 1.mp3"
+      length: 247
+    - name: "LITTLE DARK AGE.mp3"
+      length: 300
+    - name: "Lucifer Main Theme.mp3"
+      length: 204
+    - name: "Ludwig, The Accursed & Holy Blade (The Old Hunters).mp3"
+      length: 415
+    - name: "Magician Intro.mp3"
+      length: 171
+    - name: "Mais de 8000! - Sparta Extended Remix.mp3"
+      length: 133
+    - name: "Mississippi Queen.mp3"
+      length: 151
+    - name: "Nightcore - Everytime We Touch.mp3"
+      length: 161
+    - name: "Numb.mp3"
+      length: 186
+    - name: "One More Time.mp3"
+      length: 321
+    - name: "Otherside.mp3"
+      length: 255
+    - name: "Paint it Black.mp3"
+      length: 226
+    - name: "Paralyzer.mp3"
+      length: 216
+    - name: "Paranoid.mp3"
+      length: 175
     - name: "Promise (Reprise).mp3"
-      length: 106
+      length: 105
+    - name: "Rules of Nature.mp3"
+      length: 151
+    - name: "SAW THEME.mp3"
+      length: 181
     - name: "Scary Monsters And Nice Sprites.mp3"
-      length: 246
-    - name: "Shawn Mcpherson - Battle Music 1.mp3"
+      length: 245
+    - name: "Seven Nation Army.mp3"
       length: 238
     - name: "Seven Rings In Hand.mp3"
-      length: 311
+      length: 310
     - name: "Smells Like Teen Spirit.mp3"
-      length: 279
-    - name: "Seven Nation Army.mp3"
-      length: 239
+      length: 278
     - name: "SONO CHI NO KIOKU END OF THE WORLD.mp3"
-      length: 298
-    - name: "Soshi Seyo! Seru No Kanzentai.mp3"
-      length: 288
-    - name: "Lucifer Main Theme.mp3"
-      length: 205
+      length: 297
     - name: "Stoning.mp3"
-      length: 105
-    - name: "Saikyo no Akashi - King of hearts.mp3"
-      length: 167
-    - name: "Super Ultra Sexy Hero by Hironobu Kageyama.mp3"
-      length: 267
-    - name: "Ludwig, The Accursed & Holy Blade (The Old Hunters).mp3"
-      length: 416
-    - name: "Solid State Scouter - Dragon Ball Z Original Soundtrack.mp3"
-      length: 282
-    - name: "Sweet Dreams (MARILYIN MANSON).mp3"
-      length: 280
-    - name: "Symphony No. 9, Op. 125. Molto vivace.mp3"
-      length: 703
-    - name: "Syorisyatachi no Banka.mp3"
-      length: 216
-    - name: "Team Chaotix.mp3"
-      length: 223
+      length: 104
     - name: "Stronger.mp3"
-      length: 313
+      length: 312
+    - name: "Sweet Dreams (MARILYIN MANSON).mp3"
+      length: 279
+    - name: "Symphony No. 9, Op. 125. Molto vivace.mp3"
+      length: 702
     - name: "Tell me why.mp3"
-      length: 195
-    - name: "The Guess Who - Laughing.mp3"
-      length: 188
+      length: 198
     - name: "The Big Bang Theory Intro Season 1 HD.mp3"
-      length: 23
+      length: 22
     - name: "The Hot Wind Is Blowing Extended.mp3"
+      length: 231
+    - name: "The Kids Arent Alright.mp3"
+      length: 179
+    - name: "The Only Thing I Know For Real.mp3"
+      length: 146
+    - name: "The Roar of the Spark.mp3"
+      length: 312
+    - name: "The Stains of Time.mp3"
+      length: 130
+    - name: "The X-Files Theme.mp3"
+      length: 209
+    - name: "Theme of the Magician.mp3"
       length: 232
+    - name: "Trance - 009 Sound System Dreamscape.mp3"
+      length: 519
+    - name: "WASTED NIGHTCORE.mp3"
+      length: 194
+    - name: "Watamote! - Opening.mp3"
+      length: 90
+    - name: "WHAT IVE DONE.mp3"
+      length: 207
+    - name: "X GON GIVE IT TO YA.mp3"
+      length: 218
+    - name: "You're gonna go far, kid.mp3"
+      length: 177
+    - name: "yt5s.com - Angry Birds Theme (128 kbps).mp3"
+      length: 68
+    - name: "CLINT EASTWOOD.mp3"
+      length: 274
+    - name: "clubbed to death.mp3"
+      length: 455
+    - name: "10th_Man_Down.mp3"
+      length: 312
+    - name: "Deixa_Acontecer.mp3"
+      lenght: 246
+    - name: "dragon_ball_AF_destiny.mp3"
+      lenght: 606
+    - name: "Sin.mp3"
+      length: 121
+- category: ==DRAGON BALL CDCM==
+  songs:
+    - name: "[FREE] Breaking Bad Type Beat X Meme rap X Ski Mask The Slump God X Joey Trap Type Beat.mp3"
+      length: 154
+    - name: "Akira Kushida - Ultimate Battle.mp3"
+      length: 245
+    - name: "All Hail Shadow - Shadow the Hedgehog.mp3"
+      length: 204
+    - name: "Argentum Online Soundtrack - Arghal.mp3"
+      length: 58
+    - name: "Dragon Ball AF - 115.mp3"
+      length: 228
+    - name: "Dragon Ball AF - AF Medley I V2.mp3"
+      length: 85
+    - name: "Dragon Ball AF - AF Medley I.mp3"
+      length: 85
+    - name: "Dragon Ball AF - AF Medley II.mp3"
+      length: 25
+    - name: "Dragon Ball AF - Ala kerro meille.mp3"
+      length: 210
+    - name: "Dragon Ball AF - Attack.mp3"
+      length: 194
+    - name: "Dragon Ball AF - Away.mp3"
+      length: 273
+    - name: "Dragon Ball AF - BEAST IN BLACK.mp3"
+      length: 269
+    - name: "Dragon Ball AF - Blow me Away.mp3"
+      length: 207
+    - name: "Dragon Ball AF - Boss Appearance.mp3"
+      length: 67
+    - name: "Dragon Ball AF - BROTHER.ogg"
+      length: 395
+    - name: "Dragon Ball AF - Cha-La Head-Cha-La lml.mp3"
+      length: 188
+    - name: "Dragon Ball AF - Dan Dan Kokoro Hikareteku.mp3"
+      length: 211
+    - name: "Dragon Ball AF - Dawn of Victory.mp3"
+      length: 284
+    - name: "Dragon Ball AF - Dracula.mp3"
+      length: 353
+    - name: "Dragon Ball AF - Dragon Ball Saga Remix.mp3"
+      length: 138
+    - name: "Dragon Ball AF - End Of All Hope.mp3"
+      length: 235
+    - name: "Dragon Ball AF - Escape.mp3"
+      length: 343
+    - name: "Dragon Ball AF - Fiesta Pagana.mp3"
+      length: 291
+    - name: "Dragon Ball AF - Giorgio Vanni.mp3"
+      length: 173
+    - name: "Dragon Ball AF - Golden slaughterer.mp3"
+      length: 422
+    - name: "Dragon Ball AF - Gothic Vocalise.mp3"
+      length: 59
+    - name: "Dragon Ball AF - Hasta que arda - Jordi Wild.mp3"
+      length: 245
+    - name: "Dragon Ball AF - Heavy Violence.mp3"
+      length: 196
+    - name: "Dragon Ball AF - Holy Orders (Be Just or Be Dead).mp3"
+      length: 180
+    - name: "Dragon Ball AF - ira tenax.mp3"
+      length: 73
+    - name: "Dragon Ball AF - Kurenai.mp3"
+      length: 415
+    - name: "Dragon Ball AF - La cabalgata de las Valkirias.mp3"
+      length: 282
+    - name: "Dragon Ball AF - Last Resort.mp3"
+      length: 213
+    - name: "Dragon Ball AF - Lively Motion.mp3"
+      length: 277
+    - name: "Dragon Ball AF - Lux Triumphans.mp3"
+      length: 120
+    - name: "Dragon Ball AF - Master Of Puppets.mp3"
+      length: 515
+    - name: "Dragon Ball AF - Megalith.mp3"
+      length: 455
+    - name: "Dragon Ball AF - Mejor Morir En Pie.mp3"
+      length: 229
+    - name: "Dragon Ball AF - Monster.mp3"
+      length: 178
+    - name: "Dragon Ball AF - O Fortuna (Metal Ver.).mp3"
+      length: 202
+    - name: "Dragon Ball AF - Paradise.mp3"
+      length: 267
+    - name: "Dragon Ball AF - Planet Hell.mp3"
+      length: 276
+    - name: "Dragon Ball AF - Pledge of Demon.mp3"
+      length: 480
+    - name: "Dragon Ball AF - Requiem for a Dream Remix.mp3"
+      length: 246
+    - name: "Dragon Ball AF - REQUIEM FOR A DREAM.mp3"
+      length: 251
+    - name: "Dragon Ball AF - Sad Statue.mp3"
+      length: 207
+    - name: "Dragon Ball AF - Shepherd Of Fire.mp3"
+      length: 324
+    - name: "Dragon Ball AF - The end begins.mp3"
+      length: 115
+    - name: "Dragon Ball AF - THE GATE OF HELL.mp3"
+      length: 356
+    - name: "Dragon Ball AF - THE WORLD.mp3"
+      length: 226
+    - name: "Dragon Ball AF - Through The Fire And Flames.mp3"
+      length: 439
+    - name: "Dragon Ball AF - War.mp3"
+      length: 160
+    - name: "Dragon Ball AF - WHATS UP PEOPLE.mp3"
+      length: 250
+    - name: "Dragon Ball AF - Winter.mp3"
+      length: 493
+    - name: "Dragon Ball AF - Wishmaster.mp3"
+      length: 264
+    - name: "Dragon Ball AF - Xicors Theme.mp3"
+      length: 326
+    - name: "Dragon Ball AF - You give love a bad name.mp3"
+      length: 219
+    - name: "BELIEVE YOURSELF.mp3"
+      length: 191
+    - name: "Chou Super Dragon Soul.mp3"
+      length: 251
+    - name: "Chouzetsu Dynamic.mp3"
+      length: 229
+    - name: "Dan Dan Kokoro Hikareteku.mp3"
+      length: 207
+    - name: "DBZ - Perfect Cell Theme.mp3"
+      length: 221
+    - name: "DBZ Saga de Freezer Soundtrack 14.mp3"
+      length: 89
+    - name: "Demonbane - Evil Shine.mp3"
+      length: 266
+    - name: "Demonbane - HOLY WORLD.mp3"
+      length: 242
+    - name: "Demonbane - Man God Machine.mp3"
+      length: 225
+    - name: "Demonbane - Those Who Will Challenge The Divine Will.mp3"
+      length: 233
+    - name: "Demonbane -In Cry of Vengeance-.mp3"
+      length: 273
+    - name: "Deus Machina Demonbane Original Soundtrack - A Constant Renewal.mp3"
+      length: 153
+    - name: "Deus Machina Demonbane Original Soundtrack - Arkham City.mp3"
+      length: 206
+    - name: "Deus Machina Demonbane Original Soundtrack - Dance of the Superhero.mp3"
+      length: 224
+    - name: "Deus Machina Demonbane Original Soundtrack - Holy Ground of the Corrupter.mp3"
+      length: 167
+    - name: "Deus Machina Demonbane Original Soundtrack - Killing Fang Hateful Claw I'm the Dark Storm of Confusion.mp3"
+      length: 201
+    - name: "Deus Machina Demonbane Original Soundtrack - Somehow a Prodigy on Paper.mp3"
+      length: 155
+    - name: "Devil May Cry 3 OST - Track 03.mp3"
+      length: 131
+    - name: "Dragon Ball AF Bring Me to Life.mp3"
+      length: 237
+    - name: "Dragon Ball AF Bury the Light.mp3"
+      length: 582
+    - name: "Dragon Ball AF Dies Irae.mp3"
+      length: 109
+    - name: "Dragon Ball AF Duel Of The Fates.mp3"
+      length: 254
+    - name: "Dragon Ball AF Eternity.mp3"
+      length: 235
+    - name: "Dragon Ball AF HEATS.mp3"
+      length: 243
+    - name: "Dragon Ball AF Libera Me From Hell.mp3"
+      length: 289
+    - name: "Dragon Ball AF MAD QUALIA.mp3"
+      length: 210
+    - name: "Dragon Ball AF Millennium.mp3"
+      length: 249
+    - name: "Dragon Ball AF O Fortuna.mp3"
+      length: 321
+    - name: "Dragon Ball AF Otherworld.mp3"
+      length: 195
+    - name: "Dragon Ball AF Shadows Rising.mp3"
+      length: 169
+    - name: "Dragon Ball AF symphony no. 9 from the new world 4th movement.mp3"
+      length: 234
+    - name: "Dragon Ball AF The meaning of truth.mp3"
+      length: 239
+    - name: "Dragon Ball AF Wild Challenger.mp3"
+      length: 228
+    - name: "Dragon Ball AF World Is Yours.mp3"
+      length: 242
+    - name: "Dragon Ball GT - Soundtrack Usado por Dross - completo.mp3"
+      length: 66
+    - name: "Dragon Ball Super OST Limit-Break x Survivor (Instrumental Type B).mp3"
+      length: 96
+    - name: "Dragon Ball Z - Cha La Head Cha La.mp3"
+      length: 200
+    - name: "Dragon ball Z soundtrack Battle theme (Fight music).mp3"
+      length: 92
+    - name: "Dragon Soul.mp3"
+      length: 266
+    - name: "Flying in the Sky.mp3"
+      length: 223
+    - name: "fukkatsu no f - theme of freezer.mp3"
+      length: 252
+    - name: "Ginyu Tokusentai.mp3"
+      length: 276
+    - name: "Hironobu Kageyama - Boku-Tachi wa Tenshi Datta.mp3"
+      length: 230
+    - name: "Hironobu Kageyama - Super Survivor.mp3"
+      length: 255
+    - name: "HIS WORLD.mp3"
+      length: 279
+    - name: "I Am (Final Doom Version) - Shadow the Hedgehog [OST].mp3"
+      length: 217
+    - name: "Kessen no toki Kitari.mp3"
+      length: 103
+    - name: "Kiyoshi Hikawa - Genkai Toppa x Survivor.mp3"
+      length: 230
+    - name: "Kuu-Zen-Zetsu-Go.mp3"
+      length: 229
+    - name: "Kyodaika-suru Yabo.mp3"
+      length: 169
+    - name: "Live & Learn.mp3"
+      length: 273
+    - name: "M-1405.mp3"
+      length: 85
+    - name: "Moeagare Toshi Imawashiki Syukumei wo koete.mp3"
+      length: 106
+    - name: "Norihito Sumitomo - The Final Death-Match.mp3"
+      length: 167
+    - name: "Only A Chilling Elegy - Freezer theme.mp3"
+      length: 345
+    - name: "Open Your Heart.mp3"
+      length: 315
+    - name: "PICCOLO TRAP REMIX.mp3"
+      length: 95
+    - name: "Porta - Dragon Ball Rap (con Letra).mp3"
+      length: 120
+    - name: "Saikyo no Akashi - King of hearts.mp3"
+      length: 166
+    - name: "Sentou Danji.mp3"
+      length: 214
+    - name: "Shawn Mcpherson - Battle Music 1.mp3"
+      length: 237
+    - name: "Shawn Mcpherson - Cerberus Battle.mp3"
+      length: 242
+    - name: "Solid State Scouter - Dragon Ball Z Original Soundtrack.mp3"
+      length: 281
+    - name: "Soshi Seyo! Seru No Kanzentai.mp3"
+      length: 287
+    - name: "Super Ultra Sexy Hero by Hironobu Kageyama.mp3"
+      length: 266
+    - name: "Syorisyatachi no Banka.mp3"
+      length: 215
+    - name: "Team Chaotix.mp3"
+      length: 222
     - name: "The Lone Warrior.mp3"
       length: 249
-    - name: "The Roar of the Spark.mp3"
-      length: 313
-    - name: "Trance - 009 Sound System Dreamscape.mp3"
-      length: 520
-    - name: "The Kids Arent Alright.mp3"
-      length: 180
     - name: "Unmei no Hi - Tamashii VS Tamashii.mp3"
-      length: 263
-    - name: "The Only Thing I Know For Real.mp3"
-      length: 147
-    - name: "Venom 2.mp3"
-      length: 294
+      length: 262
     - name: "Venom 1.mp3"
-      length: 272
+      length: 271
+    - name: "Venom 2.mp3"
+      length: 293
     - name: "We Gotta Power.mp3"
-      length: 240
-    - name: "The X-Files Theme.mp3"
-      length: 210
-    - name: "The Stains of Time.mp3"
-      length: 131
-    - name: "WASTED NIGHTCORE.mp3"
-      length: 195
-    - name: "Yeah! Break! Care! Break!.mp3"
-      length: 224
-    - name: "Theme of the Magician.mp3"
-      length: 233
-    - name: "WHAT IVE DONE.mp3"
-      length: 208
-    - name: "Tokyo Conception - SMT III_ Nocturne.mp3"
-      length: 133
-    - name: "You're gonna go far, kid.mp3"
-      length: 178
-    - name: "Watamote! - Opening.mp3"
-      length: 91
-    - name: "X GON GIVE IT TO YA.mp3"
-      length: 219
+      length: 239
     - name: "What I'm Made Of….mp3"
-      length: 225
-    - name: "yt5s.com - Angry Birds Theme (128 kbps).mp3"
-      length: 69
+      length: 224
+    - name: "Yeah! Break! Care! Break!.mp3"
+      length: 213
+    - name: "Dragon Ball AF One-Winged Angel.mp3"
+      length: 362
+    - name: "kino.ogg"
+      length: 72
+    - name: "Canon Rock (JerryC) - The Original.mp3"
+      length: 314.4
+    - name: "FLOW - HERO -Kibou no uta.mp3"
+      length: 201.6
+    - name: "DragonBall_ Raging Blast 2 - Opening.mp3"
+      length: 80.4
+    - name: "Basshunter - DotA (HQ).mp3"
+      length: 192
+    - name: "Devil May Cry 3 - Devils Never Cry.mp3"
+      length: 312.6
+    - name: "Dragon Ball Super OST   Beerus' Madness.mp3"
+      length: 78.6
+    - name: "The Guess Who - Laughing.mp3"
+      length: 184.8
+    - name: "GTA San Andreas Opening Intro.mp3"
+      length: 1.44
+    - name: "Feeling Every Sunset - Heartless.mp3"
+      length: 142.8
+    - name: "Tokyo Conception - SMT III_ Nocturne.mp3"
+      length: 127.8
+    - name: "CS_GO_-_M4A1-S_Sound_-_High_Quality.mp3"
+      lenght: 61.2
+- category: --Super Dragon Ball AF X--
+  songs: 
+    - name: "Boss Nigger Theme Song (HD).ogg"
+      length: 100
+    - name: "Dragon Ball AF - 1000 anos despues.ogg"
+      length: 119
+    - name: "Dragon Ball AF - Abayo Fly Bye.ogg"
+      length: 170
+    - name: "Dragon Ball AF - Alex.ogg"
+      length: 285
+    - name: "Dragon Ball AF - Apocalypse 1992.ogg"
+      length: 584
+    - name: "Dragon Ball AF - Arch Linux.ogg"
+      length: 184
+    - name: "Dragon Ball AF - Assign Monk.ogg"
+      length: 161
+    - name: "Dragon Ball AF - Asu e no houkou.ogg"
+      length: 284
+    - name: "Dragon Ball AF - Audi famam ilius.ogg"
+      length: 119
+    - name: "Dragon Ball AF - Back On The Rocks.ogg"
+      length: 289
+    - name: "Dragon Ball AF - BAD BUNNY - TÚ NO METES CABRA (Video Oficial).ogg"
+      length: 173
+    - name: "Dragon Ball AF - Bang.ogg"
+      length: 147
+    - name: "Dragon Ball AF - Batalla final contra Cellbumeiggszer.ogg"
+      length: 316
+    - name: "Dragon Ball AF - Battle 2.ogg"
+      length: 155
+    - name: "Dragon Ball AF - BFG Division.ogg"
+      length: 507
+    - name: "Dragon Ball AF - Black Alice's Theme.ogg"
+      length: 114
+    - name: "Dragon Ball AF - Bloodlines.ogg"
+      length: 238
+    - name: "Dragon Ball AF - Bobidi's theme.ogg"
+      length: 233
+    - name: "Dragon Ball AF - Buleria.ogg"
+      length: 254
+    - name: "Dragon Ball AF - Cigaro.ogg"
+      length: 134
+    - name: "Dragon Ball AF - Collective Consciousness.ogg"
+      length: 159
+    - name: "Dragon Ball AF - Corte comercial.ogg"
+      length: 11
+    - name: "Dragon Ball AF - Dead or Alive.ogg"
+      length: 247
+    - name: "Dragon Ball AF - DEEP RED.ogg"
+      length: 265
+    - name: "Dragon Ball AF - Devil May Cry(anime) OST - Track 01.ogg"
+      length: 100
+    - name: "Dragon Ball AF - Devil May Cry(anime) OST - Track 23.ogg"
+      length: 104
+    - name: "Dragon Ball AF - Devil Trigger.ogg"
+      length: 405
+    - name: "Dragon Ball AF - Dies Irae (Amadeus).ogg"
+      length: 678
+    - name: "Dragon Ball AF - Do Ya Wanna Taste It.ogg"
+      length: 176
+    - name: "Dragon Ball AF - DRAGON.ogg"
+      length: 255
+    - name: "Dragon Ball AF - El Condor Pasa (TEMA DE ASAKUSA).mp3"
+      length: 180
+    - name: "Dragon Ball AF - El Poder Prohibido.ogg"
+      length: 237
+    - name: "Dragon Ball AF - Eminem - Morbius.ogg"
+      length: 125
+    - name: "Dragon Ball AF - Ending.ogg"
+      length: 300
+    - name: "Mississippi Queen.ogg"
+      length: 151
+    - name: "Dragon Ball AF - FIRE WARS.ogg"
+      length: 234
+    - name: "Dragon Ball AF - Four Heavenly Knights Battle.ogg"
+      length: 220
+    - name: "Dragon Ball AF - GEPPY-X 99.ogg"
+      length: 224
+    - name: "Dragon Ball AF - Gods.ogg"
+      length: 283
+    - name: "Dragon Ball AF - GOLDENVENGEANCE.ogg"
+      length: 149
+    - name: "Dragon Ball AF - He's a Pirate.ogg"
+      length: 263
+    - name: "Dragon Ball AF - HEYYEYAAEYAAAEYAEYAA.ogg"
+      length: 126
+    - name: "Dragon Ball AF - I Will Give You My All 2017 (Assault).ogg"
+      length: 296
+    - name: "Dragon Ball AF - Infierno (AF).ogg"
+      length: 65
+    - name: "Dragon Ball AF - Infinite.ogg"
+      length: 275
+    - name: "Dragon Ball AF - It Has To Be This Way.ogg"
+      length: 176
+    - name: "Dragon Ball AF - Kamehameha Universal.ogg"
+      length: 214
+    - name: "Dragon Ball AF - Kessen the Final Round.ogg"
+      length: 384
+    - name: "Dragon Ball AF - KNIGHT OF THE WIND.ogg"
+      length: 272
+    - name: "Dragon Ball AF - Knightrider Of Doom.ogg"
+      length: 325
+    - name: "Dragon Ball AF - La espada Z.ogg"
+      length: 261
+    - name: "Dragon Ball AF - Let's Party!!.ogg"
+      length: 188
+    - name: "Dragon Ball AF - Look Pimpin!.ogg"
+      length: 158
+    - name: "Dragon Ball AF - Loquendo Rap.ogg"
+      length: 72
+    - name: "Dragon Ball AF - Lose Yourself.ogg"
+      length: 320
+    - name: "Dragon Ball AF - Low of Solipsism.ogg"
+      length: 144
+    - name: "Dragon Ball AF - M.I.B. Main Theme.ogg"
+      length: 178
+    - name: "Dragon Ball AF - Machine.ogg"
+      length: 155
+    - name: "Dragon Ball AF - Majin Gohan.ogg"
+      length: 193
+    - name: "Dragon Ball AF - MAXON.ogg"
+      length: 250
+    - name: "Dragon Ball AF - Metal Fighter.ogg"
+      length: 188
+    - name: "Dragon Ball AF - Micronauti - Daitan III (Official Audio) - Sigla TV.ogg"
+      length: 201
+    - name: "Dragon Ball AF - Mundo Amazonico.ogg"
+      length: 221
+    - name: "Dragon Ball AF - Mundo de los angeles (AF).ogg"
+      length: 231
+    - name: "Dragon Ball AF - Mundo del Vacio.ogg"
+      length: 254
+    - name: "Dragon Ball AF - Mundo Kaioshin.ogg"
+      length: 175
+    - name: "Dragon Ball AF - My Name Is Skrillex (AF Remix).ogg"
+      length: 287
+    - name: "Dragon Ball AF - My Name Is Skrillex (HQ).ogg"
+      length: 271
+    - name: "Dragon Ball AF - Nikopol.ogg"
+      length: 211
+    - name: "Dragon Ball AF - ONE PUNCH MAN FOREVER.ogg"
+      length: 272
+    - name: "Dragon Ball AF - Phoenix.ogg"
+      length: 373
+    - name: "Dragon Ball AF - PLATINUMVENGEANCE.ogg"
+      length: 208
+    - name: "Dragon Ball AF - Police Story.ogg"
+      length: 177
+    - name: "Dragon Ball AF - Power of Desire.ogg"
+      lenght: 236
+    - name: "Dragon Ball AF - Rage of Dust.ogg"
+      lenght: 205
+    - name: "Dragon Ball AF - Ready To Die.ogg"
+      length: 175
+    - name: "Dragon Ball AF - Red Sun.ogg"
+      length: 134
+    - name: "Dragon Ball AF - Riddle of Steel - Riders of Doom.ogg"
+      length: 340
+    - name: "Dragon Ball AF - Rip and Tear.ogg"
+      length: 258
+    - name: "Dragon Ball AF - Rocks.ogg"
+      length: 299
+    - name: "Dragon Ball AF - Rungran - D.M.C. (Band Version).ogg"
+      length: 97
+    - name: "Dragon Ball AF - SAGA.ogg"
+      length: 235
+    - name: "Dragon Ball AF - Sans SSJ10 Poder Prohibido.ogg"
+      length: 145
+    - name: "Dragon Ball AF - Siegentle Man.ogg"
+      length: 354
+    - name: "Dragon Ball AF - SKILL.ogg"
+      length: 352
+    - name: "Dragon Ball AF - Speed of Light.ogg"
+      length: 185
+    - name: "Dragon Ball AF - Spirit killer.ogg"
+      length: 205
+    - name: "Dragon Ball AF - SSJ4 Mystic.ogg"
+      length: 235
+    - name: "Dragon Ball AF - SSJ5.ogg"
+      length: 120
+    - name: "Dragon Ball AF - STORMBRINGER.ogg"
+      length: 240
+    - name: "Dragon Ball AF - Subhuman.ogg"
+      length: 311
+    - name: "Dragon Ball AF - Swan Lake.ogg"
+      length: 481
+    - name: "Dragon Ball AF - Tema de Aladjinn.ogg"
+      length: 128
+    - name: "Dragon Ball AF - Tema de Angel Z.ogg"
+      length: 134
+    - name: "Dragon Ball AF - Tema de Bain.ogg"
+      length: 223
+    - name: "Dragon Ball AF - Tema de Cabba.ogg"
+      length: 204
+    - name: "Dragon Ball AF - Tema de CDCM.ogg"
+      length: 140
+    - name: "Dragon Ball AF - Tema de Cellbuzer.ogg"
+      length: 362
+    - name: "Dragon Ball AF - Tema de Demijari.ogg"
+      length: 152
+    - name: "Dragon Ball AF - Tema de El Hermano.ogg"
+      length: 373
+    - name: "Dragon Ball AF - Tema de Evil Gohan.ogg"
+      length: 168
+    - name: "Dragon Ball AF - Tema de Evil Goku.ogg"
+      length: 177
+    - name: "Dragon Ball AF - Tema de Evil Vegeta.ogg"
+      length: 178
+    - name: "Dragon Ball AF - Tema de Ize.ogg"
+      length: 138
+    - name: "Dragon Ball AF - Tema de Kaarat.ogg"
+      length: 188
+    - name: "Dragon Ball AF - Tema de KaittyXZ.ogg"
+      length: 128
+    - name: "Dragon Ball AF - Tema de Kidnapped.ogg"
+      length: 151
+    - name: "Dragon Ball AF - Tema de Kutiengo.ogg"
+      length: 311
+    - name: "Dragon Ball AF - Tema de los angeles oscuros (AF).mp3"
+      length: 92
+    - name: "Dragon Ball AF - Tema de los guerreros CDCM.ogg"
+      length: 259
+    - name: "Dragon Ball AF - Tema de Matt.ogg"
+      length: 176
+    - name: "Dragon Ball AF - Tema de Perfect Cell SSJ Dios.ogg"
+      length: 561
+    - name: "Dragon Ball AF - Tema de Ryuk.ogg"
+      length: 184
+    - name: "Dragon Ball AF - Tema de Ser Supremo Cellbumeiggszer.ogg"
+      length: 153
+    - name: "Dragon Ball AF - Tema de Tablos.ogg"
+      length: 272
+    - name: "Dragon Ball AF - Tema de Trollface.ogg"
+      length: 223
+    - name: "Dragon Ball AF - Tema de Vegeta (AF).ogg"
+      length: 87
+    - name: "Dragon Ball AF - Tema de Venom (AF).ogg"
+      length: 187
+    - name: "Dragon Ball AF - Tema de Waardelonse.ogg"
+      length: 289
+    - name: "Dragon Ball AF - Tema de Wobbu.ogg"
+      length: 145
+    - name: "Dragon Ball AF - Tema de Zaiko.ogg"
+      length: 215
+    - name: "Dragon Ball AF - Tema de Zazenllamer ladron de cuerpos.ogg"
+      length: 176
+    - name: "Dragon Ball AF - Tema de Zeel.ogg"
+      length: 176
+    - name: "Dragon Ball AF - The guardian.ogg"
+      length: 252
+    - name: "Dragon Ball AF - THE HERO!.ogg"
+      length: 227
+    - name: "Dragon Ball AF - The time has come.ogg"
+      length: 232
+    - name: "Dragon Ball AF - THE VENGEANCE OF THOSE FORGOTTEN IN DARKNESS.ogg"
+      length: 73
+    - name: "Dragon Ball AF - The Wizard's Last Rhymes.ogg"
+      length: 638
+    - name: "Dragon Ball AF - Torero.ogg"
+      length: 215
+    - name: "Dragon Ball AF - Tread on the Tiger's Tail.ogg"
+      length: 304
+    - name: "Dragon Ball AF - Ultimate Weapon.ogg"
+      length: 124
+    - name: "Dragon Ball AF - UN Owen Was Her - Nico Nico Douga Ronald McDonald.ogg"
+      length: 318
+    - name: "Dragon Ball AF - Victory! Absolute Finish!!.ogg"
+      length: 190
+    - name: "Dragon Ball AF - VICTORY.ogg"
+      length: 338
+    - name: "Dragon Ball AF - vs Cellbumeiggszer.ogg"
+      length: 244
+    - name: "Dragon Ball AF - Warriors.ogg"
+      length: 278
+    - name: "Dragon Ball AF - Wings of the legend.ogg"
+      length: 394
+    - name: "Dragon Ball AF - you are a pirate.ogg"
+      length: 94
+    - name: "Dragon Ball AF - Yukiaru Tatakai.ogg"
+      length: 136
+    - name: "Dragon Ball Super OST - The Birth of a God.ogg"
+      length: 192
+    - name: "GOKU VS JIREN RAP PORTA.ogg"
+      length: 261
+    - name: "Kino.ogg AF.ogg"
+      length: 160
+    - name: "ORIGINAL WTF BOOM.ogg"
+      length: 8
+    - name: "videos chistosos - loquendo.ogg"
+      length: 399
