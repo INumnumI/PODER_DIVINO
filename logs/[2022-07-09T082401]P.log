@@ -1,0 +1,61 @@
+[2022-07-09 08:24:01,327 UTC]TSUSERVERDR HAS ENCOUNTERED A FATAL PYTHON ERROR.
+Traceback (most recent call last):
+  File "./start_server.py", line 69, in main
+    my_server.start()
+  File "/root/PODER_DIVINO/server/tsuserver.py", line 186, in start
+    self.shutdown()
+  File "/root/PODER_DIVINO/server/tsuserver.py", line 209, in shutdown
+    self.loop.run_until_complete(self.tasker.await_cancellation(self.ms_client.shutdown()))
+  File "/usr/lib/python3.6/asyncio/base_events.py", line 484, in run_until_complete
+    return future.result()
+  File "/root/PODER_DIVINO/server/tasker.py", line 182, in await_cancellation
+    await old_task
+  File "/root/PODER_DIVINO/server/masterserverclient.py", line 100, in shutdown
+    await self.writer.wait_closed()
+AttributeError: 'StreamWriter' object has no attribute 'wait_closed'
+
+
+
+= Client dump. =
+*Number of clients: 0
+*Current clients
+
+
+= Area dump =
+*Current area list: config/areas.yaml
+*Old area list: None
+*Current areas:
+**A::0:Lobby:0
+**A::1:Templo de Kamisama:0
+**A::2:Habitacion Del Tiempo:0
+**A::3:Torre de Karin:0
+**A::4:Inicio de la torre:0
+**A::5:Casa de Goku:0
+**A::6:Interior Casa de Goku:0
+**A::7:Paprika Wasteland:0
+**A::8:Break Wasteland:0
+**A::9:Grassy Plains:0
+**A::10:Diablo Desert:0
+**A::11:Gizard Wasteland:0
+**A::12:Oceano:0
+**A::13:Kame House:0
+**A::14:East City:0
+**A::15:West City:0
+**A::16:Capsule Corp:0
+**A::17:Meseta de Yunzabit:0
+**A::18:Nave de KamiSama:0
+**A::19:Ciudad del Norte:0
+**A::20:Zona Rocosa:0
+**A::21:Arbol de la vida:0
+**A::22:Namek:0
+**A::23:Distrito de Maima:0
+**A::24:Aldea de Norte de Namek:0
+**A::25:Casa del Patriarca:0
+**A::26:El Gran Patriarca:0
+**A::27:Nave de Freezer:0
+**A::28:Interior de la nave de Freezer:0
+**A::29:Zona de Recuperacion:0
+**A::30:Limbo:0
+**A::31:Camino de la Serpiente:0
+**A::32:Planeta de Kaiosama:0
+**A::33:Infierno:0

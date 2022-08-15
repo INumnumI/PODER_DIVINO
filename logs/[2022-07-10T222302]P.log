@@ -1,0 +1,62 @@
+[2022-07-10 22:23:02,296 UTC]TSUSERVERDR HAS ENCOUNTERED A FATAL PYTHON ERROR.
+Traceback (most recent call last):
+  File "/root/PODER_DIVINO/server/constants.py", line 415, in yaml_load
+    return yaml.safe_load(file)
+  File "/root/.local/lib/python3.6/site-packages/yaml/__init__.py", line 125, in safe_load
+    return load(stream, SafeLoader)
+  File "/root/.local/lib/python3.6/site-packages/yaml/__init__.py", line 81, in load
+    return loader.get_single_data()
+  File "/root/.local/lib/python3.6/site-packages/yaml/constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+  File "/root/.local/lib/python3.6/site-packages/yaml/composer.py", line 36, in get_single_node
+    document = self.compose_document()
+  File "/root/.local/lib/python3.6/site-packages/yaml/composer.py", line 55, in compose_document
+    node = self.compose_node(None, None)
+  File "/root/.local/lib/python3.6/site-packages/yaml/composer.py", line 82, in compose_node
+    node = self.compose_sequence_node(anchor)
+  File "/root/.local/lib/python3.6/site-packages/yaml/composer.py", line 111, in compose_sequence_node
+    node.value.append(self.compose_node(node, index))
+  File "/root/.local/lib/python3.6/site-packages/yaml/composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "/root/.local/lib/python3.6/site-packages/yaml/composer.py", line 133, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+  File "/root/.local/lib/python3.6/site-packages/yaml/composer.py", line 82, in compose_node
+    node = self.compose_sequence_node(anchor)
+  File "/root/.local/lib/python3.6/site-packages/yaml/composer.py", line 111, in compose_sequence_node
+    node.value.append(self.compose_node(node, index))
+  File "/root/.local/lib/python3.6/site-packages/yaml/composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "/root/.local/lib/python3.6/site-packages/yaml/composer.py", line 127, in compose_mapping_node
+    while not self.check_event(MappingEndEvent):
+  File "/root/.local/lib/python3.6/site-packages/yaml/parser.py", line 98, in check_event
+    self.current_event = self.state()
+  File "/root/.local/lib/python3.6/site-packages/yaml/parser.py", line 428, in parse_block_mapping_key
+    if self.check_token(KeyToken):
+  File "/root/.local/lib/python3.6/site-packages/yaml/scanner.py", line 115, in check_token
+    while self.need_more_tokens():
+  File "/root/.local/lib/python3.6/site-packages/yaml/scanner.py", line 152, in need_more_tokens
+    self.stale_possible_simple_keys()
+  File "/root/.local/lib/python3.6/site-packages/yaml/scanner.py", line 292, in stale_possible_simple_keys
+    "could not find expected ':'", self.get_mark())
+yaml.scanner.ScannerError: while scanning a simple key
+  in "config/music.yaml", line 450, column 1
+could not find expected ':'
+  in "config/music.yaml", line 451, column 13
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "./start_server.py", line 68, in main
+    my_server = TsuserverDR()
+  File "/root/PODER_DIVINO/server/tsuserver.py", line 97, in __init__
+    self.load_music()
+  File "/root/PODER_DIVINO/server/tsuserver.py", line 448, in load_music
+    music_list = Constants.yaml_load(music)
+  File "/root/PODER_DIVINO/server/constants.py", line 423, in yaml_load
+    raise ServerError.YAMLInvalidError(msg)
+server.exceptions.ServerError.YAMLInvalidError: File music.yaml returned the following YAML error when loading: `while scanning a simple key
+  in "config/music.yaml", line 450, column 1
+could not find expected ':'
+  in "config/music.yaml", line 451, column 13`.
+
+Server was not initialized, so client and area dumps could not be generated.

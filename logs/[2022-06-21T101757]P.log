@@ -1,0 +1,28 @@
+[2022-06-21 10:17:57,494 UTC]TSUSERVERDR HAS ENCOUNTERED A FATAL PYTHON ERROR.
+Traceback (most recent call last):
+  File "./start_server.py", line 69, in main
+    my_server.start()
+  File "/root/PODER_DIVINO/server/tsuserver.py", line 186, in start
+    self.shutdown()
+  File "/root/PODER_DIVINO/server/tsuserver.py", line 209, in shutdown
+    self.loop.run_until_complete(self.tasker.await_cancellation(self.ms_client.shutdown()))
+  File "/usr/lib/python3.6/asyncio/base_events.py", line 484, in run_until_complete
+    return future.result()
+  File "/root/PODER_DIVINO/server/tasker.py", line 182, in await_cancellation
+    await old_task
+  File "/root/PODER_DIVINO/server/masterserverclient.py", line 100, in shutdown
+    await self.writer.wait_closed()
+AttributeError: 'StreamWriter' object has no attribute 'wait_closed'
+
+
+
+= Client dump. =
+*Number of clients: 0
+*Current clients
+
+
+= Area dump =
+*Current area list: config/areas.yaml
+*Old area list: None
+*Current areas:
+**A::0:Lobby:0

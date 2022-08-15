@@ -871,7 +871,7 @@
     - name: "Dragon Ball AF - REQUIEM MULTIVERSAL.ogg"
       length: 179
     - name: "Dragon Ball AF - Goku se transforma en SSJ Mystic 5.ogg"
-      length: 
+      length: -1
     - name: "Dragon Ball AF - SSJ5 Mystic.ogg"
       length: 283
     - name: "Dragon Ball AF - En la nada, Goku rememora su vida.ogg"
@@ -889,7 +889,7 @@
     - name: "Dragon Ball AF - EL GOLPE MISTICO DEL DRAGON.ogg"
       length: 93
     - name: "Dragon Ball AF - La bestia Takama es completamente masacrada de todos las realidades, pasadas, presentes, futuras, y no existentes.ogg"
-      length: 
+      length: -1
     - name: "Dragon Ball AF - La paz regresa.ogg"
       length: 115
     - name: "Dragon Ball AF - Creditos (SAGA ARMAGEDDON).ogg"
@@ -1269,11 +1269,11 @@
     - name: "Dragon Ball AF - You're The Best.ogg"
       length: 180
     - name: "Dragon Ball AF - Zanglassword (A).ogg"
-      length: 
+      length: -1
     - name: "Dragon Ball AF - Zanglassword (B).ogg"
       length: 6
     - name: "Dragon Ball AF - Zanglassword (C).ogg"
-      length: 
+      length: -1 
     - name: "Dragon Ball Z Saga de Cell Música 7.ogg"
       length: 73
     - name: "Konata sings the Dragon Ball Z Theme Song.ogg"

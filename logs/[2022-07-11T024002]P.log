@@ -1,0 +1,169 @@
+[2022-07-11 02:40:02,539 UTC]TSUSERVERDR HAS ENCOUNTERED A FATAL PYTHON ERROR.
+Traceback (most recent call last):
+  File "./start_server.py", line 69, in main
+    my_server.start()
+  File "/root/PODER_DIVINO/server/tsuserver.py", line 186, in start
+    self.shutdown()
+  File "/root/PODER_DIVINO/server/tsuserver.py", line 209, in shutdown
+    self.loop.run_until_complete(self.tasker.await_cancellation(self.ms_client.shutdown()))
+  File "/usr/lib/python3.6/asyncio/base_events.py", line 484, in run_until_complete
+    return future.result()
+  File "/root/PODER_DIVINO/server/tasker.py", line 182, in await_cancellation
+    await old_task
+  File "/root/PODER_DIVINO/server/masterserverclient.py", line 100, in shutdown
+    await self.writer.wait_closed()
+AttributeError: 'StreamWriter' object has no attribute 'wait_closed'
+
+
+
+= Client dump. =
+*Number of clients: 6
+*Current clients
+
+== Client information of 0 ==
+*CID: 0. IPID: 4427128349. HDID: 0e8adebc-5232-48bc-a65e-d1c669a90b42
+*Character name: Super_Zazenllamer_Syakesan_ESENCIA_HD. Showname: . OOC username: ESENCIA
+*In area: 11-Gizard Wasteland
+*Last IC message: *NO LO HACE
+*Last OOC message: 
+*Is GM? False. Is CM? False. Is mod? False.
+*Is sneaking? False. Is bleeding? False. Is handicapped? False
+*Is blinded? False. Is deafened? False. Is gagged? False
+*Is transient? False. Has autopass? False. Clients open: 1
+*Is muted? False. Is OOC Muted? False
+*Global IC range: None. Global IC prefix: None
+*Following: -
+*Followed by: -
+*Is Using: AO2 2.9.1
+*Online for: 2:43:01. Last active: Mon Jul 11 02:39:57 2022
+
+== Client information of 1 ==
+*CID: 1. IPID: 446010913. HDID: 73318f07-1284-4b83-8778-6ea7333b87a7
+*Character name: Concha. Showname: . OOC username: Meiggs
+*In area: 11-Gizard Wasteland
+*Last IC message: Pero me hare mas fuerte
+*Last OOC message: 
+*Is GM? False. Is CM? False. Is mod? False.
+*Is sneaking? False. Is bleeding? False. Is handicapped? False
+*Is blinded? False. Is deafened? False. Is gagged? False
+*Is transient? False. Has autopass? False. Clients open: 2
+*Is muted? False. Is OOC Muted? False
+*Global IC range: None. Global IC prefix: None
+*Following: -
+*Followed by: -
+*Is Using: AO2 2.9.1
+*Online for: 1:13:12. Last active: Mon Jul 11 02:36:22 2022
+
+== Client information of 2 ==
+*CID: 2. IPID: 446010913. HDID: 73318f07-1284-4b83-8778-6ea7333b87a7
+*Character name: Meiggs. Showname: . OOC username: Poder
+*In area: 3-Torre de Karin
+*Last IC message: [Le da una semilla]
+*Last OOC message: 
+*Is GM? False. Is CM? False. Is mod? False.
+*Is sneaking? False. Is bleeding? False. Is handicapped? False
+*Is blinded? False. Is deafened? False. Is gagged? False
+*Is transient? False. Has autopass? False. Clients open: 2
+*Is muted? False. Is OOC Muted? False
+*Global IC range: None. Global IC prefix: None
+*Following: -
+*Followed by: -
+*Is Using: AO2 2.9.1
+*Online for: 1:13:04. Last active: Mon Jul 11 02:35:17 2022
+
+== Client information of 3 ==
+*CID: 3. IPID: 7396075796. HDID: eaf1e700-95d7-4f23-a441-29429a73f77e
+*Character name: MAVM. Showname: . OOC username: WQDQWD
+*In area: 11-Gizard Wasteland
+*Last IC message: *CARGA KI Y KAMEHAMEHA KAIOKEN*
+*Last OOC message: 
+*Is GM? False. Is CM? False. Is mod? False.
+*Is sneaking? False. Is bleeding? False. Is handicapped? False
+*Is blinded? False. Is deafened? False. Is gagged? False
+*Is transient? False. Has autopass? False. Clients open: 1
+*Is muted? False. Is OOC Muted? False
+*Global IC range: None. Global IC prefix: None
+*Following: -
+*Followed by: -
+*Is Using: AO2 2.9.1
+*Online for: 1:11:52. Last active: Mon Jul 11 02:35:35 2022
+
+== Client information of 4 ==
+*CID: 4. IPID: 6768193929. HDID: 62196646-c0da-4a14-864e-533f34447c5a
+*Character name: LabyRS_HD. Showname: . OOC username: Wobbu
+*In area: 14-East City
+*Last IC message: *Llega y se pone a investigar epicamente*
+*Last OOC message: 
+*Is GM? False. Is CM? False. Is mod? False.
+*Is sneaking? False. Is bleeding? False. Is handicapped? False
+*Is blinded? False. Is deafened? False. Is gagged? False
+*Is transient? False. Has autopass? False. Clients open: 1
+*Is muted? False. Is OOC Muted? False
+*Global IC range: None. Global IC prefix: None
+*Following: -
+*Followed by: -
+*Is Using: AO2 2.9.1
+*Online for: 1:10:53. Last active: Mon Jul 11 02:39:58 2022
+
+== Client information of 5 ==
+*CID: 5. IPID: 5256028782. HDID: d8311e53
+*Character name: Persona15 (Meiggs). Showname: . OOC username: Aso
+*In area: 14-East City
+*Last IC message: Epico chabalin
+*Last OOC message: 
+*Is GM? False. Is CM? False. Is mod? True.
+*Is sneaking? False. Is bleeding? False. Is handicapped? False
+*Is blinded? False. Is deafened? False. Is gagged? False
+*Is transient? False. Has autopass? False. Clients open: 1
+*Is muted? False. Is OOC Muted? False
+*Global IC range: None. Global IC prefix: None
+*Following: -
+*Followed by: -
+*Is Using: DRO 1.0.0
+*Online for: 14:16. Last active: Mon Jul 11 02:39:42 2022
+
+
+= Area dump =
+*Current area list: config/areas.yaml
+*Old area list: None
+*Current areas:
+**A::0:Lobby:0
+**A::1:Templo de Kamisama:0
+**A::2:Habitacion Del Tiempo:0
+**A::3:Torre de Karin:1
+***C::2:446010913:Poder:Meiggs::False:3
+**A::4:Inicio de la torre:0
+**A::5:Casa de Goku:0
+**A::6:Interior Casa de Goku:0
+**A::7:Paprika Wasteland:0
+**A::8:Break Wasteland:0
+**A::9:Grassy Plains:0
+**A::10:Diablo Desert:0
+**A::11:Gizard Wasteland:3
+***C::0:4427128349:ESENCIA:Super_Zazenllamer_Syakesan_ESENCIA_HD::False:11
+***C::3:7396075796:WQDQWD:MAVM::False:11
+***C::1:446010913:Meiggs:Concha::False:11
+**A::12:Oceano:0
+**A::13:Kame House:0
+**A::14:East City:2
+***C::4:6768193929:Wobbu:LabyRS_HD::False:14
+***C::5:5256028782:Aso:Persona15::True:14
+**A::15:West City:0
+**A::16:Capsule Corp:0
+**A::17:Meseta de Yunzabit:0
+**A::18:Nave de KamiSama:0
+**A::19:Ciudad del Norte:0
+**A::20:Zona Rocosa:0
+**A::21:Arbol de la vida:0
+**A::22:Namek:0
+**A::23:Distrito de Maima:0
+**A::24:Aldea de Norte de Namek:0
+**A::25:Casa del Patriarca:0
+**A::26:El Gran Patriarca:0
+**A::27:Nave de Freezer:0
+**A::28:Interior de la nave de Freezer:0
+**A::29:Zona de Recuperacion:0
+**A::30:Limbo:0
+**A::31:Camino de la Serpiente:0
+**A::32:Planeta de Kaiosama:0
+**A::33:Infierno:0

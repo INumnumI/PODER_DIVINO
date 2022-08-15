@@ -1,0 +1,15 @@
+[2022-08-15 00:44:22,266 UTC]TSUSERVERDR HAS ENCOUNTERED A FATAL PYTHON ERROR.
+Traceback (most recent call last):
+  File "start_server.py", line 68, in main
+    my_server = TsuserverDR()
+  File "/root/PODER_DIVINO/server/tsuserver.py", line 97, in __init__
+    self.load_music()
+  File "/root/PODER_DIVINO/server/tsuserver.py", line 453, in load_music
+    self.build_music_list_ao2(music_list=music_list)
+  File "/root/PODER_DIVINO/server/tsuserver.py", line 516, in build_music_list_ao2
+    built_music_list.extend(self.prepare_music_list(c=c, specific_music_list=music_list))
+  File "/root/PODER_DIVINO/server/tsuserver.py", line 593, in prepare_music_list
+    raise ServerError.MusicInvalidError(msg)
+server.exceptions.ServerError.MusicInvalidError: The music list expected a numerical length for track 'Dragon Ball AF - Zanglassword (A).ogg', but found it had length 'None'.
+
+Server was not initialized, so client and area dumps could not be generated.
